@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=true
+Exec=/home/optimus/project/icvs_avvs/debug_icvs.sh
+Name=icvs_avvs
+Comment=icvs_avvs
+Icon=/home/optimus/project/icvs_avvs/src/avos_monitor/resources/Icones/vehicle.png
+Name[en_US]=icvs_avvs

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package>
+  <name>common_base</name>
+  <version>0.0.0</version>
+  <description>The common_base package</description>
+  <author>lixiaofei@idriverplus.com</author>
+  <author>wangxiao@idriverplus.com</author>
+  <maintainer email="idriver@todo.todo">idriver</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend> 
+  <run_depend>roscpp</run_depend> 
+
+  <build_depend>genmsg</build_depend> 
+  <run_depend>genmsg</run_depend> 
+
+  <build_depend>gencpp</build_depend> 
+  <run_depend>gencpp</run_depend> 
+
+  <build_depend>genpy</build_depend> 
+  <run_depend>genpy</run_depend> 
+
+  <build_depend>std_msgs</build_depend> 
+  <run_depend>std_msgs</run_depend> 
+
+  <run_depend>message_runtime</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+</package>

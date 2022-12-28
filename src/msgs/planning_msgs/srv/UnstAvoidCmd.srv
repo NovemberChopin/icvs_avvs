@@ -1,0 +1,4 @@
+bool enable_avoid
+int32 avoidthreshold  #1-保守， 2-激进
+---
+int32 result

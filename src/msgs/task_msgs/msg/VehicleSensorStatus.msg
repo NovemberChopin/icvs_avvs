@@ -1,0 +1,9 @@
+int8    main_4g_signal
+int8    slave_4g_signal
+int8    lidar_status
+int8    wifi_signal
+float32   battery_info
+int8     emergency_stop_btn_status
+int8      software_status
+string     avos_version
+string     MCU_verison

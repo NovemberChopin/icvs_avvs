@@ -1,0 +1,9 @@
+FaultInfo[] 	fault_info
+VehicleLocpos 	locpos
+VehicleBehavior 	vehicle_behavior
+VehicleSensorStatus 	vehicle_sensor_status
+VehicleDriveStatus 	vehicle_drive_status
+common_msgs/TimeStatus          time_status
+VehicleResourceInfo     vehicle_resource_info
+BusinessStatus 	business_status
+int8         init_status

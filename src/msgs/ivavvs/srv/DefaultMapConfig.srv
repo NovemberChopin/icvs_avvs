@@ -1,0 +1,6 @@
+std_msgs/Header header
+uint8 msg_seq
+fileinfo file_info
+---
+uint8 msg_seq
+int8  result

@@ -1,0 +1,7 @@
+std_msgs/Header header
+uint8 msg_seq
+uint8 param_module
+---
+uint8 msg_seq
+int8  result
+uint8 param_module

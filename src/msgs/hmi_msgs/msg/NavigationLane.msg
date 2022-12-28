@@ -1,0 +1,3 @@
+string lane_id
+int32 cost
+string suggestion_next_lane_id

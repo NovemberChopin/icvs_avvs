@@ -1,0 +1,7 @@
+common_msgs/Header header
+common_msgs/FaultVec fault_vec
+VehiclePerception vechle_perception
+planning_msgs/Trajectory motion_path
+planning_msgs/Business business_feedback
+SystemControl system_control
+SystemState system_state

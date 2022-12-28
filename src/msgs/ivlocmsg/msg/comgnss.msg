@@ -1,0 +1,17 @@
+std_msgs/Header header
+float64 time_unix
+float64 lon_gnss
+float64 lat_gnss
+float64 height_gnss
+float64 heading
+float64 vel_h
+float64 vel_v
+int32 status_xy
+int32 status_heading
+int32 satnum
+float32 diffage
+float32 trk
+float32 baseline
+float32 xg
+float32 yg
+float32 zg

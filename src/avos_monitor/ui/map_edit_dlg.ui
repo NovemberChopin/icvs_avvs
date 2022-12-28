@@ -1,0 +1,926 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MapEditDlg</class>
+ <widget class="QDialog" name="MapEditDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>709</width>
+    <height>765</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>地图采集与编辑</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">color: rgb(255, 255, 255);
+background-color: #555555;</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>671</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGroupBox {
+            border-color: rgb(200, 200, 200);
+            border-width: 1px;
+            border-style: solid;
+            margin-top: 0.5ex;
+        }</string>
+   </property>
+   <property name="title">
+    <string>地图采集</string>
+   </property>
+   <widget class="QPushButton" name="start_acq_map_btn">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>310</y>
+      <width>89</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    color:white;
+	background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(50, 50, 50, 255), stop:0.618557 rgba(100, 100, 100, 255));
+}
+QPushButton:hover
+{
+    background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(100, 100, 100, 255), stop:0.618557 rgba(50, 50, 50, 255));
+}
+QPushButton:pressed
+{
+    background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(20, 20, 20, 255), stop:0.618557 rgba(70, 70, 70, 255));
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+    </property>
+    <property name="text">
+     <string>开始采集</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="add_function_btn">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>310</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    color:white;
+	background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(50, 50, 50, 255), stop:0.618557 rgba(100, 100, 100, 255));
+}
+QPushButton:hover
+{
+    background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(100, 100, 100, 255), stop:0.618557 rgba(50, 50, 50, 255));
+}
+QPushButton:pressed
+{
+    background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(20, 20, 20, 255), stop:0.618557 rgba(70, 70, 70, 255));
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+    </property>
+    <property name="text">
+     <string>添加功能点</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>220</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>存储路径</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="map_rawdata_path_edit">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>220</y>
+      <width>481</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="select_save_path_btn">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>220</y>
+      <width>51</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    color:white;
+	background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(50, 50, 50, 255), stop:0.618557 rgba(100, 100, 100, 255));
+}
+QPushButton:hover
+{
+    background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(100, 100, 100, 255), stop:0.618557 rgba(50, 50, 50, 255));
+}
+QPushButton:pressed
+{
+    background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(20, 20, 20, 255), stop:0.618557 rgba(70, 70, 70, 255));
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+    </property>
+    <property name="text">
+     <string>选择...</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>260</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>功能点类型</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="function_combox">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>260</y>
+      <width>111</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox {
+	color: rgb(255, 255, 255);
+	background-color: rgb(85, 87, 83);
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 1px 2px 1px 2px; 
+}</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="start_recieve_gps_btn">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>310</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    color:white;
+	background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(50, 50, 50, 255), stop:0.618557 rgba(100, 100, 100, 255));
+}
+QPushButton:hover
+{
+    background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(100, 100, 100, 255), stop:0.618557 rgba(50, 50, 50, 255));
+}
+QPushButton:pressed
+{
+    background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(20, 20, 20, 255), stop:0.618557 rgba(70, 70, 70, 255));
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+    </property>
+    <property name="text">
+     <string>准备采集</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_16">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>260</y>
+      <width>67</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>地图命名</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="map_name_edit">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>260</y>
+      <width>91</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="readOnly">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>651</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QGroupBox {
+            border-color: rgb(200, 200, 200);
+            border-width: 1px;
+            border-style: solid;
+            margin-top: 0.5ex;
+        }</string>
+    </property>
+    <property name="title">
+     <string>GPS状态显示</string>
+    </property>
+    <widget class="QLineEdit" name="current_heading_valid_edit">
+     <property name="geometry">
+      <rect>
+       <x>520</x>
+       <y>40</y>
+       <width>111</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>80</y>
+       <width>67</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>GPS频率</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="gps_rate_edit">
+     <property name="geometry">
+      <rect>
+       <x>520</x>
+       <y>80</y>
+       <width>111</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>67</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>GPS状态</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="gps_status_edit">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>40</y>
+       <width>131</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_15">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>40</y>
+       <width>67</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>航向有效</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="current_heading_edit">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>40</y>
+       <width>131</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>80</y>
+       <width>67</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>当前纬度</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="current_log_edit">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>80</y>
+       <width>131</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>80</y>
+       <width>67</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>当前经度</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="current_lat_edit">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>80</y>
+       <width>131</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>40</y>
+       <width>61</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>航向角度</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="gps_state_num_edit">
+     <property name="geometry">
+      <rect>
+       <x>520</x>
+       <y>120</y>
+       <width>111</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_14">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>120</y>
+       <width>67</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>当前高度</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>120</y>
+       <width>61</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>收星颗数</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="current_heigth_edit">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>120</y>
+       <width>131</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="current_velocity_edit">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>120</y>
+       <width>131</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_18">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>120</y>
+       <width>67</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>当前速度</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLineEdit" name="point_count_edit">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>260</y>
+      <width>91</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_22">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>260</y>
+      <width>67</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>采集点数</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>370</y>
+     <width>671</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGroupBox {
+            border-color: rgb(200, 200, 200);
+            border-width: 1px;
+            border-style: solid;
+            margin-top: 0.5ex;
+        }</string>
+   </property>
+   <property name="title">
+    <string>地图编辑</string>
+   </property>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>地图原始数据</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="import_data_path_edit">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>40</y>
+      <width>441</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="select_import_data_btn">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>40</y>
+      <width>61</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    color:white;
+	background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(50, 50, 50, 255), stop:0.618557 rgba(100, 100, 100, 255));
+}
+QPushButton:hover
+{
+    background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(100, 100, 100, 255), stop:0.618557 rgba(50, 50, 50, 255));
+}
+QPushButton:pressed
+{
+    background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(20, 20, 20, 255), stop:0.618557 rgba(70, 70, 70, 255));
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+    </property>
+    <property name="text">
+     <string>选择...</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="export_map_btn">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>140</y>
+      <width>89</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    color:white;
+	background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(50, 50, 50, 255), stop:0.618557 rgba(100, 100, 100, 255));
+}
+QPushButton:hover
+{
+    background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(100, 100, 100, 255), stop:0.618557 rgba(50, 50, 50, 255));
+}
+QPushButton:pressed
+{
+    background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(20, 20, 20, 255), stop:0.618557 rgba(70, 70, 70, 255));
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+    </property>
+    <property name="text">
+     <string>导出数据</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>左边界扩展</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="left_side_distance_edit">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>120</y>
+      <width>81</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="road_attribut_combox">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>160</y>
+      <width>111</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox {
+	color: rgb(255, 255, 255);
+	background-color: rgb(85, 87, 83);
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 1px 2px 1px 2px; 
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>160</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>道路属性选择</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_17">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>120</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>m</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_19">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>120</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>m</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_20">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>120</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>右边界扩展</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="right_side_distance_edit">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>120</y>
+      <width>81</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="export_map_path_edit">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>80</y>
+      <width>441</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_21">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>地图导出路径</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="select_export_path_btn">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>80</y>
+      <width>61</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    color:white;
+	background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(50, 50, 50, 255), stop:0.618557 rgba(100, 100, 100, 255));
+}
+QPushButton:hover
+{
+    background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(100, 100, 100, 255), stop:0.618557 rgba(50, 50, 50, 255));
+}
+QPushButton:pressed
+{
+    background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(20, 20, 20, 255), stop:0.618557 rgba(70, 70, 70, 255));
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+    </property>
+    <property name="text">
+     <string>选择...</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>590</y>
+     <width>671</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGroupBox {
+            border-color: rgb(200, 200, 200);
+            border-width: 1px;
+            border-style: solid;
+            margin-top: 0.5ex;
+        }</string>
+   </property>
+   <property name="title">
+    <string>地图下发</string>
+   </property>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>车端地图路径</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="vehicle_map_path_edit">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>40</y>
+      <width>531</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="local_map_bag_path_edit">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>80</y>
+      <width>431</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>本地地图文件</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="select_map_bag_btn">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>80</y>
+      <width>81</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    color:white;
+	background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(50, 50, 50, 255), stop:0.618557 rgba(100, 100, 100, 255));
+}
+QPushButton:hover
+{
+    background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(100, 100, 100, 255), stop:0.618557 rgba(50, 50, 50, 255));
+}
+QPushButton:pressed
+{
+    background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(20, 20, 20, 255), stop:0.618557 rgba(70, 70, 70, 255));
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+    </property>
+    <property name="text">
+     <string>选择...</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="download_map_to_vehicle_btn">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>120</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    color:white;
+	background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(50, 50, 50, 255), stop:0.618557 rgba(100, 100, 100, 255));
+}
+QPushButton:hover
+{
+    background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(100, 100, 100, 255), stop:0.618557 rgba(50, 50, 50, 255));
+}
+QPushButton:pressed
+{
+    background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(20, 20, 20, 255), stop:0.618557 rgba(70, 70, 70, 255));
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+    </property>
+    <property name="text">
+     <string>地图下发到车端</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

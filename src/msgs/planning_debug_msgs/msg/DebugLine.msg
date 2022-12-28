@@ -1,0 +1,9 @@
+string[] lane_ids
+float32 speed_limit
+float32 dis2line
+DebugState block_state
+DebugState slow_state
+DebugState center_state
+DebugState left_offset_state
+DebugState right_offset_state
+STGraph[] objs_st

@@ -1,0 +1,15 @@
+float32 	midback
+float32 	midfront
+float32 	heading
+float32 	leftfront
+float32 	rightfront
+float32 	leftback
+float32 	rightback
+float32 	dist_preview
+float32 	x_previewpoint
+float32 	y_previewpoint
+float32 	R
+float32 	temp1
+float32 	temp2
+float32 	temp3
+float32 	temp4 

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CanDebugDlg</class>
+ <widget class="QDialog" name="CanDebugDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>587</width>
+    <height>572</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CAN调试</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">color: rgb(255, 255, 255);
+background-color: #555555;</string>
+  </property>
+  <widget class="QTextEdit" name="receive_can_text">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>160</y>
+     <width>531</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTextEdit {
+    color: white;
+	gridline-color: rgb(136, 138, 133);
+    background-color: rgb(85, 87, 83); 
+    alternate-background-color: rgb(64, 64, 64);
+    selection-color: white; 
+    selection-background-color: rgb(77, 77, 77); 
+    border: 2px groove gray;
+    border-radius: 0px;
+    padding: 2px 4px;
+}</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>130</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>接收CAN报文</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="send_can_text">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>440</y>
+     <width>531</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTextEdit {
+    color: white;
+	gridline-color: rgb(136, 138, 133);
+    background-color: rgb(85, 87, 83); 
+    alternate-background-color: rgb(64, 64, 64);
+    selection-color: white; 
+    selection-background-color: rgb(77, 77, 77); 
+    border: 2px groove gray;
+    border-radius: 0px;
+    padding: 2px 4px;
+}</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>410</y>
+     <width>101</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>发送CAN报文</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="connect_can_btn">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>370</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+    color:white;
+	background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(50, 50, 50, 255), stop:0.618557 rgba(100, 100, 100, 255));
+}
+QPushButton:hover
+{
+    background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(100, 100, 100, 255), stop:0.618557 rgba(50, 50, 50, 255));
+}
+QPushButton:pressed
+{
+    background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(20, 20, 20, 255), stop:0.618557 rgba(70, 70, 70, 255));
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+   </property>
+   <property name="text">
+    <string>连接CAN</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="send_can_btn">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>530</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+    color:white;
+	background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(50, 50, 50, 255), stop:0.618557 rgba(100, 100, 100, 255));
+}
+QPushButton:hover
+{
+    background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(100, 100, 100, 255), stop:0.618557 rgba(50, 50, 50, 255));
+}
+QPushButton:pressed
+{
+    background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(20, 20, 20, 255), stop:0.618557 rgba(70, 70, 70, 255));
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+   </property>
+   <property name="text">
+    <string>单帧发送</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="start_recieve_btn">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>370</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+    color:white;
+	background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(50, 50, 50, 255), stop:0.618557 rgba(100, 100, 100, 255));
+}
+QPushButton:hover
+{
+    background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(100, 100, 100, 255), stop:0.618557 rgba(50, 50, 50, 255));
+}
+QPushButton:pressed
+{
+    background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(20, 20, 20, 255), stop:0.618557 rgba(70, 70, 70, 255));
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+   </property>
+   <property name="text">
+    <string>开始接收</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cycle_send_can_btn">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>530</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+    color:white;
+	background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(50, 50, 50, 255), stop:0.618557 rgba(100, 100, 100, 255));
+}
+QPushButton:hover
+{
+    background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(100, 100, 100, 255), stop:0.618557 rgba(50, 50, 50, 255));
+}
+QPushButton:pressed
+{
+    background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(20, 20, 20, 255), stop:0.618557 rgba(70, 70, 70, 255));
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+   </property>
+   <property name="text">
+    <string>循环发送</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>531</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGroupBox {
+            border-color: rgb(200, 200, 200);
+            border-width: 1px;
+            border-style: solid;
+            margin-top: 0.5ex;
+        }</string>
+   </property>
+   <property name="title">
+    <string>CAN设置</string>
+   </property>
+   <widget class="QLineEdit" name="send_rate_edit">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>40</y>
+      <width>81</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>40</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>发送频率</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>61</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CAN口</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="can_port_edit">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>40</y>
+      <width>81</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>40</y>
+      <width>61</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CAN ID</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="can_id_edit">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>40</y>
+      <width>81</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

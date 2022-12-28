@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<launch>
+	<node name="proto_map_generator"  pkg="map_loader"  type="proto_map_generator" output="screen"/> 
+	<node name="png2bin"  pkg="map_loader"  type="png2bin" output="screen"/> 
+	<node name="creat_shared_memory"  pkg="map_loader"  type="creat_shared_memory" output="screen"/> 
+	
+	<node name="rviz" pkg="rviz" type="rviz" args="-d $(find system_toolbar)/resource/global.rviz" output = "screen"/>
+		<param type="string" value="$(find system_toolbar)/resource/matrix/cicv.xls" name="rviz_matrix_path"/>		
+		<!-- <param type="string" value="$(find system_toolbar)/resource/matrix/avos_x_wxb.xls" name="rviz_matrix_path"/> -->
+		<param type="string" value="$(find ivrviz)/../map_file/N4016424E11622714/app_map/app_map.xml" name="app_map_path"/>
+		<param type="string" value="$(find ivrviz)/../map_file/N4016424E11622714/wxb_map/wxb01.xml" name="vector_map_path"/>
+		<!-- <param type="string" value="$(find ivrviz)/../map_file/N4016424E11622714/vector_map/apollo.xml" name="vector_map_path"/> -->
+		<!-- <param type="string" value="$(find ivrviz)/../map-ori/N4007873E11633929/vector_map/vectormap.xml" name="vector_map_path"/> -->
+
+		<param type="string" value="idriver@192.168.1.101:/work/share/project/resident/src/map_file/" name="vehicle_map_path"/>
+	<node name="ivrviz" pkg="ivrviz" type="ivrviz" output = "screen"/>
+		<param type="double" value="4.3" name="lengthVehicle"/>
+		<param type="double" value="1.8" name="widthVehicle"/>
+		<param type="double" value="0.80" name="wheel_base_length"/>
+		<param type="double" value="0.35" name="front_axle_tofront"/>
+		<param type="double" value="1.7" name="heightVehicle"/>
+		<param type="string" value="car" name="car_model"/>
+		<param type="string" value="package://system_toolbar/resource/car/CarModel.dae" name="car_source_path"/>
+    <!-- <node pkg="ivrviz" type="tf_broadcaster.py" name="tf_broadcaster"/> -->
+		<param name="rviz_frame_id" value="/base_link" type="string"/>
+		<param name="use_base_link" value="true" type="bool"/>
+		<param name="front_length" value="0.95" type="double"/>
+		<param name="back_length" value="0.4" type="double"/>
+		<param name="half_length" value="0.49" type="double"/>
+	<param name="use_sim_time" value="false"/>
+</launch>

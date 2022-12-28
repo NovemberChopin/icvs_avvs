@@ -1,0 +1,6468 @@
+header {
+  version: "1.400000"
+  date: "2021-04-28T20:22:20"
+  projection {
+    proj: "+proj=utm +zone=50 +ellps=WGS84 +datum=WGS84 +units=m +no_defs"
+  }
+  district: "aosen"
+  rev_major: "0"
+  rev_minor: "6"
+  left: 116.510941535
+  top: 39.759586032
+  right: 116.511211148
+  bottom: 39.759147112
+  vendor: "idriverplus"
+}
+lane {
+  id {
+    id: "23232320_1_-1"
+  }
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 458111.45893575565
+          y: 4401140.5090880562
+        }
+        point {
+          x: 458111.51974552748
+          y: 4401140.6641416168
+        }
+        point {
+          x: 458111.60661662283
+          y: 4401140.8856467074
+        }
+        point {
+          x: 458111.69354829972
+          y: 4401141.1182504324
+        }
+        point {
+          x: 458111.77185344731
+          y: 4401141.3398022847
+        }
+        point {
+          x: 458111.8587245302
+          y: 4401141.5613073772
+        }
+        point {
+          x: 458111.94565618993
+          y: 4401141.7939111041
+        }
+        point {
+          x: 458112.02396132366
+          y: 4401142.0154629583
+        }
+        point {
+          x: 458112.110832392
+          y: 4401142.2369680544
+        }
+        point {
+          x: 458112.21519883414
+          y: 4401142.5249714386
+        }
+        point {
+          x: 458112.293503953
+          y: 4401142.7465232946
+        }
+        point {
+          x: 458112.3629402126
+          y: 4401142.91262874
+        }
+        point {
+          x: 458112.44124532124
+          y: 4401143.134180597
+        }
+        point {
+          x: 458112.51955042768
+          y: 4401143.3557324558
+        }
+        point {
+          x: 458112.59779494663
+          y: 4401143.5661856821
+        }
+        point {
+          x: 458112.67610004439
+          y: 4401143.7877375428
+        }
+        point {
+          x: 458112.7543445527
+          y: 4401143.99819077
+        }
+        point {
+          x: 458112.83264964167
+          y: 4401144.2197426315
+        }
+        point {
+          x: 458112.91089414369
+          y: 4401144.43019586
+        }
+        point {
+          x: 458112.98913864151
+          y: 4401144.64064909
+        }
+        point {
+          x: 458113.07607023587
+          y: 4401144.8732528323
+        }
+        point {
+          x: 458113.15431472484
+          y: 4401145.0837060632
+        }
+        point {
+          x: 458113.23249862535
+          y: 4401145.2830606615
+        }
+        point {
+          x: 458113.3021771707
+          y: 4401145.4935606522
+        }
+        point {
+          x: 458113.38042164524
+          y: 4401145.7040138859
+        }
+        point {
+          x: 458113.45860553597
+          y: 4401145.9033684861
+        }
+        point {
+          x: 458113.52828406979
+          y: 4401146.1138684787
+        }
+        point {
+          x: 458113.60646795272
+          y: 4401146.3132230816
+        }
+        point {
+          x: 458113.67608589737
+          y: 4401146.5126244407
+        }
+        point {
+          x: 458113.7542697704
+          y: 4401146.7119790446
+        }
+        point {
+          x: 458113.82394828915
+          y: 4401146.92247904
+        }
+        point {
+          x: 458113.90213215433
+          y: 4401147.1218336457
+        }
+        point {
+          x: 458113.97175008431
+          y: 4401147.3212350076
+        }
+        point {
+          x: 458114.04136801086
+          y: 4401147.5206363713
+        }
+        point {
+          x: 458114.11098593171
+          y: 4401147.7200377351
+        }
+        point {
+          x: 458114.18910920306
+          y: 4401147.9082937082
+        }
+        point {
+          x: 458114.25872711884
+          y: 4401148.1076950748
+        }
+        point {
+          x: 458114.32828445057
+          y: 4401148.295997805
+        }
+        point {
+          x: 458114.39784177672
+          y: 4401148.4843005389
+        }
+        point {
+          x: 458114.46745968214
+          y: 4401148.6837019054
+        }
+        point {
+          x: 458114.53701700375
+          y: 4401148.8720046394
+        }
+        point {
+          x: 458114.61514025339
+          y: 4401149.060260619
+        }
+        point {
+          x: 458114.684697566
+          y: 4401149.2485633539
+        }
+        point {
+          x: 458114.75425487733
+          y: 4401149.43686609
+        }
+        point {
+          x: 458114.82381218538
+          y: 4401149.6251688255
+        }
+        point {
+          x: 458114.89336948795
+          y: 4401149.8134715641
+        }
+        point {
+          x: 458114.9629267893
+          y: 4401150.0017743018
+        }
+        point {
+          x: 458115.03248408734
+          y: 4401150.1900770394
+        }
+        point {
+          x: 458115.1021019594
+          y: 4401150.3894784134
+        }
+        point {
+          x: 458115.17165925063
+          y: 4401150.5777811529
+        }
+        point {
+          x: 458115.24115595932
+          y: 4401150.7549852589
+        }
+        point {
+          x: 458115.30208673334
+          y: 4401150.932236122
+        }
+        point {
+          x: 458115.37158343586
+          y: 4401151.109440228
+        }
+        point {
+          x: 458115.4498278012
+          y: 4401151.3198934849
+        }
+        point {
+          x: 458115.50195032172
+          y: 4401151.4527965663
+        }
+        point {
+          x: 458115.57156817283
+          y: 4401151.6521979449
+        }
+        point {
+          x: 458115.6411254417
+          y: 4401151.8405006882
+        }
+        point {
+          x: 458115.71930921171
+          y: 4401152.0398553126
+        }
+        point {
+          x: 458115.81498830667
+          y: 4401152.3057082342
+        }
+        point {
+          x: 458115.89317206986
+          y: 4401152.50506286
+        }
+        point {
+          x: 458115.97141640732
+          y: 4401152.7155161221
+        }
+        point {
+          x: 458116.02359948796
+          y: 4401152.8595178407
+        }
+        point {
+          x: 458116.11040974531
+          y: 4401153.0699243508
+        }
+        point {
+          x: 458116.1886540713
+          y: 4401153.2803776143
+        }
+        point {
+          x: 458116.26695897104
+          y: 4401153.5019295122
+        }
+        point {
+          x: 458116.35376921255
+          y: 4401153.7123360252
+        }
+        point {
+          x: 458116.44064002926
+          y: 4401153.9338411717
+        }
+        point {
+          x: 458116.52757141856
+          y: 4401154.1664449545
+        }
+        point {
+          x: 458116.61450280267
+          y: 4401154.3990487373
+        }
+        point {
+          x: 458116.72749542055
+          y: 4401154.6981040668
+        }
+        point {
+          x: 458116.8144267929
+          y: 4401154.9307078514
+        }
+        point {
+          x: 458116.88386284886
+          y: 4401155.09681334
+        }
+        point {
+          x: 458116.97079421213
+          y: 4401155.3294171253
+        }
+        point {
+          x: 458117.05772556807
+          y: 4401155.5620209146
+        }
+        point {
+          x: 458117.14465692104
+          y: 4401155.794624703
+        }
+        point {
+          x: 458117.23152769235
+          y: 4401156.0161298588
+        }
+        point {
+          x: 458117.3270249585
+          y: 4401156.2486868985
+        }
+        point {
+          x: 458117.41395629593
+          y: 4401156.4812906915
+        }
+        point {
+          x: 458117.52694885334
+          y: 4401156.7803460322
+        }
+        point {
+          x: 458117.61381960294
+          y: 4401157.0018511936
+        }
+        point {
+          x: 458117.6833767732
+          y: 4401157.1901539573
+        }
+        point {
+          x: 458117.77024751384
+          y: 4401157.41165912
+        }
+        point {
+          x: 458117.85717882524
+          y: 4401157.6442629183
+        }
+        point {
+          x: 458117.94404955592
+          y: 4401157.8657680815
+        }
+        point {
+          x: 458118.03092028172
+          y: 4401158.0872732466
+        }
+        point {
+          x: 458118.11779100262
+          y: 4401158.3087784136
+        }
+        point {
+          x: 458118.20472229162
+          y: 4401158.5413822168
+        }
+        point {
+          x: 458118.2915930025
+          y: 4401158.7628873847
+        }
+        point {
+          x: 458118.37846370856
+          y: 4401158.9843925554
+        }
+        point {
+          x: 458118.46533440973
+          y: 4401159.2058977252
+        }
+        point {
+          x: 458118.55232625536
+          y: 4401159.4496001648
+        }
+        point {
+          x: 458118.6391969464
+          y: 4401159.6711053383
+        }
+        point {
+          x: 458118.7260676304
+          y: 4401159.8926105127
+        }
+        point {
+          x: 458118.81293831166
+          y: 4401160.1141156862
+        }
+        point {
+          x: 458118.89124306926
+          y: 4401160.335667613
+        }
+        point {
+          x: 458118.978113741
+          y: 4401160.55717279
+        }
+        point {
+          x: 458119.05641848949
+          y: 4401160.778724717
+        }
+        point {
+          x: 458119.14322857559
+          y: 4401160.9891312625
+        }
+        point {
+          x: 458119.23009923508
+          y: 4401161.2106364416
+        }
+        point {
+          x: 458119.30834339419
+          y: 4401161.42108974
+        }
+        point {
+          x: 458119.3952140421
+          y: 4401161.6425949214
+        }
+        point {
+          x: 458119.47345819464
+          y: 4401161.8530482184
+        }
+        point {
+          x: 458119.56026825763
+          y: 4401162.0634547686
+        }
+        point {
+          x: 458119.63851240149
+          y: 4401162.2739080684
+        }
+        point {
+          x: 458119.72532245761
+          y: 4401162.48431462
+        }
+        point {
+          x: 458119.80356659292
+          y: 4401162.6947679212
+        }
+        point {
+          x: 458119.881810724
+          y: 4401162.9052212248
+        }
+        point {
+          x: 458119.96862076654
+          y: 4401163.11562778
+        }
+        point {
+          x: 458120.04680431425
+          y: 4401163.3149824487
+        }
+        point {
+          x: 458120.12504843267
+          y: 4401163.525435756
+        }
+        point {
+          x: 458120.2032319745
+          y: 4401163.7247904278
+        }
+        point {
+          x: 458120.28147608461
+          y: 4401163.9352437323
+        }
+        point {
+          x: 458120.3596596162
+          y: 4401164.1345984079
+        }
+        point {
+          x: 458120.44640906021
+          y: 4401164.333906333
+        }
+        point {
+          x: 458120.5245925858
+          y: 4401164.5332610086
+        }
+        point {
+          x: 458120.60277610744
+          y: 4401164.7326156851
+        }
+        point {
+          x: 458120.6809596229
+          y: 4401164.9319703616
+        }
+        point {
+          x: 458120.75914313656
+          y: 4401165.13132504
+        }
+        point {
+          x: 458120.83732664626
+          y: 4401165.3306797175
+        }
+        point {
+          x: 458120.91544958053
+          y: 4401165.5189357633
+        }
+        point {
+          x: 458120.98494602705
+          y: 4401165.6961399233
+        }
+        point {
+          x: 458121.07175600692
+          y: 4401165.90654649
+        }
+        point {
+          x: 458121.14987892983
+          y: 4401166.094802537
+        }
+        point {
+          x: 458121.2194965079
+          y: 4401166.2942039687
+        }
+        point {
+          x: 458121.29761942342
+          y: 4401166.4824600182
+        }
+        point {
+          x: 458121.375742333
+          y: 4401166.6707160687
+        }
+        point {
+          x: 458121.44523875893
+          y: 4401166.8479202334
+        }
+        point {
+          x: 458121.52336166351
+          y: 4401167.0361762829
+        }
+        point {
+          x: 458121.59291865112
+          y: 4401167.2244790848
+        }
+        point {
+          x: 458121.67104154837
+          y: 4401167.4127351381
+        }
+        point {
+          x: 458121.74047739082
+          y: 4401167.5788406692
+        }
+        point {
+          x: 458121.80997380044
+          y: 4401167.7560448386
+        }
+        point {
+          x: 458121.888096685
+          y: 4401167.9443008928
+        }
+        point {
+          x: 458121.95759308804
+          y: 4401168.121505063
+        }
+        point {
+          x: 458122.03577653528
+          y: 4401168.3208597545
+        }
+        point {
+          x: 458122.10533350136
+          y: 4401168.509162561
+        }
+        point {
+          x: 458122.18339580391
+          y: 4401168.6863199836
+        }
+        point {
+          x: 458122.25295276323
+          y: 4401168.8746227892
+        }
+        point {
+          x: 458122.32244914758
+          y: 4401169.0518269632
+        }
+        point {
+          x: 458122.40057200909
+          y: 4401169.2400830248
+        }
+        point {
+          x: 458122.46144191123
+          y: 4401169.4062353112
+        }
+        point {
+          x: 458122.53956476593
+          y: 4401169.5944913728
+        }
+        point {
+          x: 458122.60912170645
+          y: 4401169.7827941831
+        }
+        point {
+          x: 458122.68724455382
+          y: 4401169.9710502457
+        }
+        point {
+          x: 458122.77405444277
+          y: 4401170.1814568331
+        }
+        point {
+          x: 458122.84361137246
+          y: 4401170.3697596453
+        }
+        point {
+          x: 458122.92179477692
+          y: 4401170.5691143461
+        }
+        point {
+          x: 458122.99997817742
+          y: 4401170.7684690477
+        }
+        point {
+          x: 458123.07816157391
+          y: 4401170.9678237494
+        }
+        point {
+          x: 458123.15634496429
+          y: 4401171.167178452
+        }
+        point {
+          x: 458123.22590187826
+          y: 4401171.3554812688
+        }
+        point {
+          x: 458123.31271173741
+          y: 4401171.5658878619
+        }
+        point {
+          x: 458123.390955686
+          y: 4401171.7763412027
+        }
+        point {
+          x: 458123.47782610386
+          y: 4401171.9978464311
+        }
+        point {
+          x: 458123.5733835554
+          y: 4401172.2415021844
+        }
+        point {
+          x: 458123.65168805781
+          y: 4401172.4630541634
+        }
+        point {
+          x: 458123.73855846073
+          y: 4401172.6845593946
+        }
+        point {
+          x: 458123.82548942609
+          y: 4401172.917163264
+        }
+        point {
+          x: 458123.91235981905
+          y: 4401173.138668498
+        }
+        point {
+          x: 458124.00785667833
+          y: 4401173.3712256225
+        }
+        point {
+          x: 458124.0861005903
+          y: 4401173.5816789707
+        }
+        point {
+          x: 458124.1730315332
+          y: 4401173.8142828438
+        }
+        point {
+          x: 458124.25996247312
+          y: 4401174.0468867151
+        }
+        point {
+          x: 458124.34689340793
+          y: 4401174.27949059
+        }
+        point {
+          x: 458124.45107727626
+          y: 4401174.534198245
+        }
+        point {
+          x: 458124.52932116471
+          y: 4401174.7446515979
+        }
+        point {
+          x: 458124.62493911857
+          y: 4401174.9994059987
+        }
+        point {
+          x: 458124.711870032
+          y: 4401175.2320098784
+        }
+        point {
+          x: 458124.79880093812
+          y: 4401175.4646137571
+        }
+        point {
+          x: 458124.88567127759
+          y: 4401175.6861190032
+        }
+        point {
+          x: 458124.9553492394
+          y: 4401175.8966191048
+        }
+        point {
+          x: 458125.04221956746
+          y: 4401176.1181243528
+        }
+        point {
+          x: 458125.12908989063
+          y: 4401176.3396296017
+        }
+        point {
+          x: 458125.21602077212
+          y: 4401176.572233486
+        }
+        point {
+          x: 458125.29432518507
+          y: 4401176.7937854817
+        }
+        point {
+          x: 458125.38119549362
+          y: 4401177.0152907334
+        }
+        point {
+          x: 458125.47675282724
+          y: 4401177.2589465119
+        }
+        point {
+          x: 458125.55511779088
+          y: 4401177.4915971439
+        }
+        point {
+          x: 458125.64198808436
+          y: 4401177.7131023975
+        }
+        point {
+          x: 458125.72029247391
+          y: 4401177.9346543988
+        }
+        point {
+          x: 458125.78978869971
+          y: 4401178.1118586026
+        }
+        point {
+          x: 458125.88540657167
+          y: 4401178.3666130221
+        }
+        point {
+          x: 458125.93764986662
+          y: 4401178.5217134478
+        }
+        point {
+          x: 458126.02452013572
+          y: 4401178.743218706
+        }
+        point {
+          x: 458126.10282450425
+          y: 4401178.96477071
+        }
+        point {
+          x: 458126.19850291969
+          y: 4401179.2306237677
+        }
+        point {
+          x: 458126.27674671455
+          y: 4401179.4410771374
+        }
+        point {
+          x: 458126.355051069
+          y: 4401179.6626291443
+        }
+        point {
+          x: 458126.433355419
+          y: 4401179.884181153
+        }
+        point {
+          x: 458126.51159919892
+          y: 4401180.0946345245
+        }
+        point {
+          x: 458126.57252949348
+          y: 4401180.2718854807
+        }
+        point {
+          x: 458126.65077326575
+          y: 4401180.482338855
+        }
+        point {
+          x: 458126.72907759924
+          y: 4401180.7038908657
+        }
+        point {
+          x: 458126.80732136522
+          y: 4401180.9143442418
+        }
+        point {
+          x: 458126.885565127
+          y: 4401181.12479762
+        }
+        point {
+          x: 458126.96386944532
+          y: 4401181.3463496324
+        }
+        point {
+          x: 458127.05948724208
+          y: 4401181.6011040676
+        }
+        point {
+          x: 458127.13773098803
+          y: 4401181.8115574475
+        }
+        point {
+          x: 458127.215974732
+          y: 4401182.0220108284
+        }
+        point {
+          x: 458127.29433959682
+          y: 4401182.2546614781
+        }
+        point {
+          x: 458127.35514873
+          y: 4401182.409715171
+        }
+        point {
+          x: 458127.4248265684
+          y: 4401182.6202152967
+        }
+        point {
+          x: 458127.5030702966
+          y: 4401182.83066868
+        }
+        point {
+          x: 458127.58131402067
+          y: 4401183.0411220649
+        }
+        point {
+          x: 458127.65099184524
+          y: 4401183.2516221935
+        }
+        point {
+          x: 458127.72917499929
+          y: 4401183.4509769436
+        }
+        point {
+          x: 458127.82479274337
+          y: 4401183.7057313882
+        }
+        point {
+          x: 458127.89440999605
+          y: 4401183.9051328832
+        }
+        point {
+          x: 458127.97265369893
+          y: 4401184.1155862724
+        }
+        point {
+          x: 458128.05089739541
+          y: 4401184.3260396607
+        }
+        point {
+          x: 458128.10314060806
+          y: 4401184.4811401
+        }
+        point {
+          x: 458128.19001075014
+          y: 4401184.7026453856
+        }
+        point {
+          x: 458128.25968854595
+          y: 4401184.9131455189
+        }
+        point {
+          x: 458128.33787166793
+          y: 4401185.1125002773
+        }
+        point {
+          x: 458128.41605478595
+          y: 4401185.3118550358
+        }
+        point {
+          x: 458128.48567200726
+          y: 4401185.5112565365
+        }
+        point {
+          x: 458128.56385511754
+          y: 4401185.7106112959
+        }
+        point {
+          x: 458128.63347233378
+          y: 4401185.9100127984
+        }
+        point {
+          x: 458128.71165543416
+          y: 4401186.1093675615
+        }
+        point {
+          x: 458128.78127264307
+          y: 4401186.308769065
+        }
+        point {
+          x: 458128.85945573793
+          y: 4401186.5081238281
+        }
+        point {
+          x: 458128.92901237938
+          y: 4401186.6964266989
+        }
+        point {
+          x: 458128.99862957536
+          y: 4401186.8958282042
+        }
+        point {
+          x: 458129.07675209886
+          y: 4401187.0840843348
+        }
+      }
+      s: 0
+      start_position {
+        x: 458111.45893575565
+        y: 4401140.5090880562
+      }
+      length: 49.805
+    }
+  }
+  left_boundary {
+    curve {
+    }
+    length: 0
+    virtual: false
+    boundary_type {
+      s: 0
+      types: SOLID_WHITE
+    }
+  }
+  right_boundary {
+    curve {
+    }
+    length: 0
+    virtual: false
+    boundary_type {
+      s: 0
+      types: SOLID_WHITE
+    }
+  }
+  length: 49.805
+  speed_limit: 60
+  overlap_id {
+    id: "overlap_1"
+  }
+  type: CITY_DRIVING
+  turn: NO_TURN
+  left_sample {
+    s: 0
+    width: 4
+  }
+  left_sample {
+    s: 0.1666
+    width: 4
+  }
+  left_sample {
+    s: 0.4045
+    width: 4
+  }
+  left_sample {
+    s: 0.6528
+    width: 3.9999
+  }
+  left_sample {
+    s: 0.8878
+    width: 3.9985
+  }
+  left_sample {
+    s: 1.1257
+    width: 4
+  }
+  left_sample {
+    s: 1.374
+    width: 3.9999
+  }
+  left_sample {
+    s: 1.609
+    width: 3.9985
+  }
+  left_sample {
+    s: 1.8469
+    width: 4
+  }
+  left_sample {
+    s: 2.1533
+    width: 3.9996
+  }
+  left_sample {
+    s: 2.3883
+    width: 3.9939
+  }
+  left_sample {
+    s: 2.5683
+    width: 4
+  }
+  left_sample {
+    s: 2.8033
+    width: 4
+  }
+  left_sample {
+    s: 3.0383
+    width: 3.9996
+  }
+  left_sample {
+    s: 3.2628
+    width: 4
+  }
+  left_sample {
+    s: 3.4978
+    width: 3.9996
+  }
+  left_sample {
+    s: 3.7223
+    width: 4
+  }
+  left_sample {
+    s: 3.9573
+    width: 3.9996
+  }
+  left_sample {
+    s: 4.1818
+    width: 4
+  }
+  left_sample {
+    s: 4.4063
+    width: 4
+  }
+  left_sample {
+    s: 4.6547
+    width: 4
+  }
+  left_sample {
+    s: 4.8792
+    width: 3.9942
+  }
+  left_sample {
+    s: 5.0933
+    width: 3.9999
+  }
+  left_sample {
+    s: 5.3151
+    width: 3.9983
+  }
+  left_sample {
+    s: 5.5396
+    width: 3.9942
+  }
+  left_sample {
+    s: 5.7537
+    width: 3.9996
+  }
+  left_sample {
+    s: 5.9754
+    width: 3.9967
+  }
+  left_sample {
+    s: 6.1896
+    width: 3.9999
+  }
+  left_sample {
+    s: 6.4008
+    width: 3.9942
+  }
+  left_sample {
+    s: 6.6149
+    width: 3.9996
+  }
+  left_sample {
+    s: 6.8367
+    width: 3.9967
+  }
+  left_sample {
+    s: 7.0508
+    width: 4
+  }
+  left_sample {
+    s: 7.262
+    width: 4
+  }
+  left_sample {
+    s: 7.4732
+    width: 3.9996
+  }
+  left_sample {
+    s: 7.6844
+    width: 3.9935
+  }
+  left_sample {
+    s: 7.8882
+    width: 4
+  }
+  left_sample {
+    s: 8.0994
+    width: 3.9995
+  }
+  left_sample {
+    s: 8.3002
+    width: 4
+  }
+  left_sample {
+    s: 8.5009
+    width: 4
+  }
+  left_sample {
+    s: 8.7121
+    width: 3.9995
+  }
+  left_sample {
+    s: 8.9129
+    width: 3.9971
+  }
+  left_sample {
+    s: 9.1167
+    width: 4
+  }
+  left_sample {
+    s: 9.3174
+    width: 4
+  }
+  left_sample {
+    s: 9.5182
+    width: 4
+  }
+  left_sample {
+    s: 9.7189
+    width: 4
+  }
+  left_sample {
+    s: 9.9196
+    width: 4
+  }
+  left_sample {
+    s: 10.1204
+    width: 4
+  }
+  left_sample {
+    s: 10.3211
+    width: 4
+  }
+  left_sample {
+    s: 10.5323
+    width: 3.9995
+  }
+  left_sample {
+    s: 10.7331
+    width: 3.9964
+  }
+  left_sample {
+    s: 10.9234
+    width: 3.9998
+  }
+  left_sample {
+    s: 11.1108
+    width: 3.9979
+  }
+  left_sample {
+    s: 11.3012
+    width: 4
+  }
+  left_sample {
+    s: 11.5257
+    width: 3.9971
+  }
+  left_sample {
+    s: 11.6685
+    width: 4
+  }
+  left_sample {
+    s: 11.8797
+    width: 3.9995
+  }
+  left_sample {
+    s: 12.0804
+    width: 3.9994
+  }
+  left_sample {
+    s: 12.2946
+    width: 4
+  }
+  left_sample {
+    s: 12.5771
+    width: 3.9988
+  }
+  left_sample {
+    s: 12.7912
+    width: 4
+  }
+  left_sample {
+    s: 13.0158
+    width: 3.9997
+  }
+  left_sample {
+    s: 13.1689
+    width: 3.9979
+  }
+  left_sample {
+    s: 13.3965
+    width: 4
+  }
+  left_sample {
+    s: 13.6211
+    width: 3.9997
+  }
+  left_sample {
+    s: 13.8561
+    width: 3.9969
+  }
+  left_sample {
+    s: 14.0837
+    width: 4
+  }
+  left_sample {
+    s: 14.3216
+    width: 4
+  }
+  left_sample {
+    s: 14.5699
+    width: 4
+  }
+  left_sample {
+    s: 14.8182
+    width: 4
+  }
+  left_sample {
+    s: 15.1379
+    width: 3.9999
+  }
+  left_sample {
+    s: 15.3862
+    width: 3.9972
+  }
+  left_sample {
+    s: 15.5663
+    width: 4
+  }
+  left_sample {
+    s: 15.8146
+    width: 4
+  }
+  left_sample {
+    s: 16.0629
+    width: 4
+  }
+  left_sample {
+    s: 16.3112
+    width: 3.9996
+  }
+  left_sample {
+    s: 16.5492
+    width: 3.9995
+  }
+  left_sample {
+    s: 16.8006
+    width: 4
+  }
+  left_sample {
+    s: 17.0489
+    width: 4
+  }
+  left_sample {
+    s: 17.3686
+    width: 3.9997
+  }
+  left_sample {
+    s: 17.6065
+    width: 4
+  }
+  left_sample {
+    s: 17.8072
+    width: 3.9994
+  }
+  left_sample {
+    s: 18.0452
+    width: 4
+  }
+  left_sample {
+    s: 18.2935
+    width: 3.9996
+  }
+  left_sample {
+    s: 18.5314
+    width: 4
+  }
+  left_sample {
+    s: 18.7693
+    width: 4
+  }
+  left_sample {
+    s: 19.0073
+    width: 4
+  }
+  left_sample {
+    s: 19.2556
+    width: 3.9996
+  }
+  left_sample {
+    s: 19.4935
+    width: 4
+  }
+  left_sample {
+    s: 19.7315
+    width: 3.9994
+  }
+  left_sample {
+    s: 19.9694
+    width: 4
+  }
+  left_sample {
+    s: 20.2281
+    width: 3.9987
+  }
+  left_sample {
+    s: 20.4661
+    width: 4
+  }
+  left_sample {
+    s: 20.704
+    width: 3.999
+  }
+  left_sample {
+    s: 20.9419
+    width: 3.9999
+  }
+  left_sample {
+    s: 21.1769
+    width: 3.9985
+  }
+  left_sample {
+    s: 21.4149
+    width: 3.9997
+  }
+  left_sample {
+    s: 21.6498
+    width: 3.9969
+  }
+  left_sample {
+    s: 21.8774
+    width: 4
+  }
+  left_sample {
+    s: 22.1154
+    width: 4
+  }
+  left_sample {
+    s: 22.3399
+    width: 3.9995
+  }
+  left_sample {
+    s: 22.5778
+    width: 3.9999
+  }
+  left_sample {
+    s: 22.8024
+    width: 3.9984
+  }
+  left_sample {
+    s: 23.03
+    width: 3.9999
+  }
+  left_sample {
+    s: 23.2545
+    width: 3.9984
+  }
+  left_sample {
+    s: 23.4821
+    width: 4
+  }
+  left_sample {
+    s: 23.7066
+    width: 3.9999
+  }
+  left_sample {
+    s: 23.9312
+    width: 3.9984
+  }
+  left_sample {
+    s: 24.1588
+    width: 4
+  }
+  left_sample {
+    s: 24.3729
+    width: 4
+  }
+  left_sample {
+    s: 24.5974
+    width: 3.9995
+  }
+  left_sample {
+    s: 24.8116
+    width: 4
+  }
+  left_sample {
+    s: 25.0361
+    width: 3.9995
+  }
+  left_sample {
+    s: 25.2502
+    width: 3.9979
+  }
+  left_sample {
+    s: 25.4676
+    width: 4
+  }
+  left_sample {
+    s: 25.6818
+    width: 4
+  }
+  left_sample {
+    s: 25.8959
+    width: 4
+  }
+  left_sample {
+    s: 26.11
+    width: 4
+  }
+  left_sample {
+    s: 26.3242
+    width: 4
+  }
+  left_sample {
+    s: 26.5383
+    width: 3.9994
+  }
+  left_sample {
+    s: 26.7421
+    width: 4
+  }
+  left_sample {
+    s: 26.9325
+    width: 3.999
+  }
+  left_sample {
+    s: 27.1601
+    width: 3.9935
+  }
+  left_sample {
+    s: 27.3639
+    width: 3.9996
+  }
+  left_sample {
+    s: 27.5751
+    width: 3.9964
+  }
+  left_sample {
+    s: 27.7789
+    width: 3.9999
+  }
+  left_sample {
+    s: 27.9828
+    width: 4
+  }
+  left_sample {
+    s: 28.1731
+    width: 3.9971
+  }
+  left_sample {
+    s: 28.3769
+    width: 3.9998
+  }
+  left_sample {
+    s: 28.5777
+    width: 3.9981
+  }
+  left_sample {
+    s: 28.7815
+    width: 3.9998
+  }
+  left_sample {
+    s: 28.9615
+    width: 4
+  }
+  left_sample {
+    s: 29.1519
+    width: 3.9994
+  }
+  left_sample {
+    s: 29.3557
+    width: 4
+  }
+  left_sample {
+    s: 29.546
+    width: 3.9999
+  }
+  left_sample {
+    s: 29.7602
+    width: 3.9994
+  }
+  left_sample {
+    s: 29.9609
+    width: 3.9928
+  }
+  left_sample {
+    s: 30.1545
+    width: 4
+  }
+  left_sample {
+    s: 30.3552
+    width: 3.9994
+  }
+  left_sample {
+    s: 30.5456
+    width: 3.9966
+  }
+  left_sample {
+    s: 30.7494
+    width: 3.9998
+  }
+  left_sample {
+    s: 30.9264
+    width: 3.9971
+  }
+  left_sample {
+    s: 31.1302
+    width: 3.9998
+  }
+  left_sample {
+    s: 31.3309
+    width: 3.9981
+  }
+  left_sample {
+    s: 31.5347
+    width: 3.998
+  }
+  left_sample {
+    s: 31.7624
+    width: 4
+  }
+  left_sample {
+    s: 31.9631
+    width: 3.9994
+  }
+  left_sample {
+    s: 32.1772
+    width: 4
+  }
+  left_sample {
+    s: 32.3914
+    width: 4
+  }
+  left_sample {
+    s: 32.6055
+    width: 3.9999
+  }
+  left_sample {
+    s: 32.8196
+    width: 3.9999
+  }
+  left_sample {
+    s: 33.0204
+    width: 3.9983
+  }
+  left_sample {
+    s: 33.248
+    width: 4
+  }
+  left_sample {
+    s: 33.4725
+    width: 3.9995
+  }
+  left_sample {
+    s: 33.7105
+    width: 3.9993
+  }
+  left_sample {
+    s: 33.9722
+    width: 3.9999
+  }
+  left_sample {
+    s: 34.2072
+    width: 3.9985
+  }
+  left_sample {
+    s: 34.4451
+    width: 4
+  }
+  left_sample {
+    s: 34.6934
+    width: 3.9996
+  }
+  left_sample {
+    s: 34.9313
+    width: 3.9992
+  }
+  left_sample {
+    s: 35.1827
+    width: 4
+  }
+  left_sample {
+    s: 35.4073
+    width: 4
+  }
+  left_sample {
+    s: 35.6556
+    width: 4
+  }
+  left_sample {
+    s: 35.9039
+    width: 3.9999
+  }
+  left_sample {
+    s: 36.1522
+    width: 3.9987
+  }
+  left_sample {
+    s: 36.4274
+    width: 4
+  }
+  left_sample {
+    s: 36.6519
+    width: 4
+  }
+  left_sample {
+    s: 36.924
+    width: 4
+  }
+  left_sample {
+    s: 37.1724
+    width: 4
+  }
+  left_sample {
+    s: 37.4207
+    width: 3.9942
+  }
+  left_sample {
+    s: 37.6586
+    width: 3.9996
+  }
+  left_sample {
+    s: 37.8803
+    width: 3.9967
+  }
+  left_sample {
+    s: 38.1183
+    width: 4
+  }
+  left_sample {
+    s: 38.3562
+    width: 4
+  }
+  left_sample {
+    s: 38.6045
+    width: 3.9999
+  }
+  left_sample {
+    s: 38.8395
+    width: 3.9985
+  }
+  left_sample {
+    s: 39.0774
+    width: 3.9958
+  }
+  left_sample {
+    s: 39.3392
+    width: 3.9998
+  }
+  left_sample {
+    s: 39.5847
+    width: 3.9971
+  }
+  left_sample {
+    s: 39.8226
+    width: 3.9999
+  }
+  left_sample {
+    s: 40.0576
+    width: 3.9985
+  }
+  left_sample {
+    s: 40.2479
+    width: 3.9994
+  }
+  left_sample {
+    s: 40.52
+    width: 3.9996
+  }
+  left_sample {
+    s: 40.6837
+    width: 3.9975
+  }
+  left_sample {
+    s: 40.9216
+    width: 4
+  }
+  left_sample {
+    s: 41.1566
+    width: 3.9999
+  }
+  left_sample {
+    s: 41.4391
+    width: 3.9998
+  }
+  left_sample {
+    s: 41.6637
+    width: 4
+  }
+  left_sample {
+    s: 41.8987
+    width: 4
+  }
+  left_sample {
+    s: 42.1336
+    width: 3.9996
+  }
+  left_sample {
+    s: 42.3582
+    width: 4
+  }
+  left_sample {
+    s: 42.5456
+    width: 3.9992
+  }
+  left_sample {
+    s: 42.7701
+    width: 4
+  }
+  left_sample {
+    s: 43.0051
+    width: 3.9996
+  }
+  left_sample {
+    s: 43.2296
+    width: 4
+  }
+  left_sample {
+    s: 43.4542
+    width: 4
+  }
+  left_sample {
+    s: 43.6891
+    width: 3.9994
+  }
+  left_sample {
+    s: 43.9613
+    width: 4
+  }
+  left_sample {
+    s: 44.1858
+    width: 3.9993
+  }
+  left_sample {
+    s: 44.4103
+    width: 3.9998
+  }
+  left_sample {
+    s: 44.6558
+    width: 3.9945
+  }
+  left_sample {
+    s: 44.8224
+    width: 3.9999
+  }
+  left_sample {
+    s: 45.0441
+    width: 3.9983
+  }
+  left_sample {
+    s: 45.2686
+    width: 3.9982
+  }
+  left_sample {
+    s: 45.4931
+    width: 3.9996
+  }
+  left_sample {
+    s: 45.7149
+    width: 3.9967
+  }
+  left_sample {
+    s: 45.929
+    width: 3.9999
+  }
+  left_sample {
+    s: 46.2011
+    width: 4
+  }
+  left_sample {
+    s: 46.4123
+    width: 3.9994
+  }
+  left_sample {
+    s: 46.6369
+    width: 3.9993
+  }
+  left_sample {
+    s: 46.8614
+    width: 3.9996
+  }
+  left_sample {
+    s: 47.025
+    width: 3.9918
+  }
+  left_sample {
+    s: 47.263
+    width: 3.9196
+  }
+  left_sample {
+    s: 47.4847
+    width: 3.8528
+  }
+  left_sample {
+    s: 47.6988
+    width: 3.8108
+  }
+  left_sample {
+    s: 47.913
+    width: 3.7804
+  }
+  left_sample {
+    s: 48.1242
+    width: 3.7543
+  }
+  left_sample {
+    s: 48.3383
+    width: 3.7478
+  }
+  left_sample {
+    s: 48.5495
+    width: 3.7455
+  }
+  left_sample {
+    s: 48.7637
+    width: 3.7633
+  }
+  left_sample {
+    s: 48.9749
+    width: 3.7848
+  }
+  left_sample {
+    s: 49.189
+    width: 3.8258
+  }
+  left_sample {
+    s: 49.3898
+    width: 3.863
+  }
+  left_sample {
+    s: 49.601
+    width: 3.8984
+  }
+  left_sample {
+    s: 49.8048
+    width: 3.944
+  }
+  right_sample {
+    s: 0
+    width: 2
+  }
+  right_sample {
+    s: 0.1666
+    width: 2
+  }
+  right_sample {
+    s: 0.4045
+    width: 1.9998
+  }
+  right_sample {
+    s: 0.6528
+    width: 1.9997
+  }
+  right_sample {
+    s: 0.8878
+    width: 2
+  }
+  right_sample {
+    s: 1.1257
+    width: 1.9998
+  }
+  right_sample {
+    s: 1.374
+    width: 1.9997
+  }
+  right_sample {
+    s: 1.609
+    width: 2
+  }
+  right_sample {
+    s: 1.8469
+    width: 1.9994
+  }
+  right_sample {
+    s: 2.1533
+    width: 1.9993
+  }
+  right_sample {
+    s: 2.3883
+    width: 1.9999
+  }
+  right_sample {
+    s: 2.5683
+    width: 1.9979
+  }
+  right_sample {
+    s: 2.8033
+    width: 2
+  }
+  right_sample {
+    s: 3.0383
+    width: 2
+  }
+  right_sample {
+    s: 3.2628
+    width: 1.9998
+  }
+  right_sample {
+    s: 3.4978
+    width: 2
+  }
+  right_sample {
+    s: 3.7223
+    width: 1.9998
+  }
+  right_sample {
+    s: 3.9573
+    width: 2
+  }
+  right_sample {
+    s: 4.1818
+    width: 2
+  }
+  right_sample {
+    s: 4.4063
+    width: 2
+  }
+  right_sample {
+    s: 4.6547
+    width: 2
+  }
+  right_sample {
+    s: 4.8792
+    width: 1.9999
+  }
+  right_sample {
+    s: 5.0933
+    width: 1.998
+  }
+  right_sample {
+    s: 5.3151
+    width: 2
+  }
+  right_sample {
+    s: 5.5396
+    width: 1.9999
+  }
+  right_sample {
+    s: 5.7537
+    width: 1.998
+  }
+  right_sample {
+    s: 5.9754
+    width: 2
+  }
+  right_sample {
+    s: 6.1896
+    width: 1.9989
+  }
+  right_sample {
+    s: 6.4008
+    width: 1.9999
+  }
+  right_sample {
+    s: 6.6149
+    width: 1.998
+  }
+  right_sample {
+    s: 6.8367
+    width: 2
+  }
+  right_sample {
+    s: 7.0508
+    width: 1.9989
+  }
+  right_sample {
+    s: 7.262
+    width: 2
+  }
+  right_sample {
+    s: 7.4732
+    width: 1.9988
+  }
+  right_sample {
+    s: 7.6844
+    width: 1.9999
+  }
+  right_sample {
+    s: 7.8882
+    width: 1.9978
+  }
+  right_sample {
+    s: 8.0994
+    width: 2
+  }
+  right_sample {
+    s: 8.3002
+    width: 2
+  }
+  right_sample {
+    s: 8.5009
+    width: 1.9997
+  }
+  right_sample {
+    s: 8.7121
+    width: 1.9998
+  }
+  right_sample {
+    s: 8.9129
+    width: 2
+  }
+  right_sample {
+    s: 9.1167
+    width: 1.9988
+  }
+  right_sample {
+    s: 9.3174
+    width: 2
+  }
+  right_sample {
+    s: 9.5182
+    width: 2
+  }
+  right_sample {
+    s: 9.7189
+    width: 2
+  }
+  right_sample {
+    s: 9.9196
+    width: 2
+  }
+  right_sample {
+    s: 10.1204
+    width: 2
+  }
+  right_sample {
+    s: 10.3211
+    width: 1.9997
+  }
+  right_sample {
+    s: 10.5323
+    width: 2
+  }
+  right_sample {
+    s: 10.7331
+    width: 2
+  }
+  right_sample {
+    s: 10.9234
+    width: 1.9987
+  }
+  right_sample {
+    s: 11.1108
+    width: 2
+  }
+  right_sample {
+    s: 11.3012
+    width: 1.9997
+  }
+  right_sample {
+    s: 11.5257
+    width: 2
+  }
+  right_sample {
+    s: 11.6685
+    width: 1.999
+  }
+  right_sample {
+    s: 11.8797
+    width: 2
+  }
+  right_sample {
+    s: 12.0804
+    width: 2
+  }
+  right_sample {
+    s: 12.2946
+    width: 1.9994
+  }
+  right_sample {
+    s: 12.5771
+    width: 2
+  }
+  right_sample {
+    s: 12.7912
+    width: 1.9997
+  }
+  right_sample {
+    s: 13.0158
+    width: 1.9992
+  }
+  right_sample {
+    s: 13.1689
+    width: 2
+  }
+  right_sample {
+    s: 13.3965
+    width: 1.999
+  }
+  right_sample {
+    s: 13.6211
+    width: 1.9996
+  }
+  right_sample {
+    s: 13.8561
+    width: 2
+  }
+  right_sample {
+    s: 14.0837
+    width: 1.9997
+  }
+  right_sample {
+    s: 14.3216
+    width: 1.9998
+  }
+  right_sample {
+    s: 14.5699
+    width: 2
+  }
+  right_sample {
+    s: 14.8182
+    width: 2
+  }
+  right_sample {
+    s: 15.1379
+    width: 1.9999
+  }
+  right_sample {
+    s: 15.3862
+    width: 2
+  }
+  right_sample {
+    s: 15.5663
+    width: 1.9989
+  }
+  right_sample {
+    s: 15.8146
+    width: 2
+  }
+  right_sample {
+    s: 16.0629
+    width: 2
+  }
+  right_sample {
+    s: 16.3112
+    width: 2
+  }
+  right_sample {
+    s: 16.5492
+    width: 2
+  }
+  right_sample {
+    s: 16.8006
+    width: 1.9992
+  }
+  right_sample {
+    s: 17.0489
+    width: 2
+  }
+  right_sample {
+    s: 17.3686
+    width: 2
+  }
+  right_sample {
+    s: 17.6065
+    width: 1.9997
+  }
+  right_sample {
+    s: 17.8072
+    width: 2
+  }
+  right_sample {
+    s: 18.0452
+    width: 1.9998
+  }
+  right_sample {
+    s: 18.2935
+    width: 2
+  }
+  right_sample {
+    s: 18.5314
+    width: 2
+  }
+  right_sample {
+    s: 18.7693
+    width: 2
+  }
+  right_sample {
+    s: 19.0073
+    width: 1.9998
+  }
+  right_sample {
+    s: 19.2556
+    width: 2
+  }
+  right_sample {
+    s: 19.4935
+    width: 2
+  }
+  right_sample {
+    s: 19.7315
+    width: 2
+  }
+  right_sample {
+    s: 19.9694
+    width: 1.9992
+  }
+  right_sample {
+    s: 20.2281
+    width: 2
+  }
+  right_sample {
+    s: 20.4661
+    width: 2
+  }
+  right_sample {
+    s: 20.704
+    width: 2
+  }
+  right_sample {
+    s: 20.9419
+    width: 1.9991
+  }
+  right_sample {
+    s: 21.1769
+    width: 2
+  }
+  right_sample {
+    s: 21.4149
+    width: 1.9991
+  }
+  right_sample {
+    s: 21.6498
+    width: 2
+  }
+  right_sample {
+    s: 21.8774
+    width: 1.9997
+  }
+  right_sample {
+    s: 22.1154
+    width: 1.9997
+  }
+  right_sample {
+    s: 22.3399
+    width: 2
+  }
+  right_sample {
+    s: 22.5778
+    width: 1.9997
+  }
+  right_sample {
+    s: 22.8024
+    width: 2
+  }
+  right_sample {
+    s: 23.03
+    width: 1.999
+  }
+  right_sample {
+    s: 23.2545
+    width: 2
+  }
+  right_sample {
+    s: 23.4821
+    width: 1.999
+  }
+  right_sample {
+    s: 23.7066
+    width: 1.9999
+  }
+  right_sample {
+    s: 23.9312
+    width: 2
+  }
+  right_sample {
+    s: 24.1588
+    width: 1.9997
+  }
+  right_sample {
+    s: 24.3729
+    width: 1.9997
+  }
+  right_sample {
+    s: 24.5974
+    width: 2
+  }
+  right_sample {
+    s: 24.8116
+    width: 1.9997
+  }
+  right_sample {
+    s: 25.0361
+    width: 1.9999
+  }
+  right_sample {
+    s: 25.2502
+    width: 2
+  }
+  right_sample {
+    s: 25.4676
+    width: 1.999
+  }
+  right_sample {
+    s: 25.6818
+    width: 2
+  }
+  right_sample {
+    s: 25.8959
+    width: 2
+  }
+  right_sample {
+    s: 26.11
+    width: 2
+  }
+  right_sample {
+    s: 26.3242
+    width: 2
+  }
+  right_sample {
+    s: 26.5383
+    width: 2
+  }
+  right_sample {
+    s: 26.7421
+    width: 1.9997
+  }
+  right_sample {
+    s: 26.9325
+    width: 2
+  }
+  right_sample {
+    s: 27.1601
+    width: 1.9999
+  }
+  right_sample {
+    s: 27.3639
+    width: 1.9978
+  }
+  right_sample {
+    s: 27.5751
+    width: 2
+  }
+  right_sample {
+    s: 27.7789
+    width: 2
+  }
+  right_sample {
+    s: 27.9828
+    width: 1.9997
+  }
+  right_sample {
+    s: 28.1731
+    width: 2
+  }
+  right_sample {
+    s: 28.3769
+    width: 1.9988
+  }
+  right_sample {
+    s: 28.5777
+    width: 2
+  }
+  right_sample {
+    s: 28.7815
+    width: 2
+  }
+  right_sample {
+    s: 28.9615
+    width: 1.9996
+  }
+  right_sample {
+    s: 29.1519
+    width: 2
+  }
+  right_sample {
+    s: 29.3557
+    width: 1.9997
+  }
+  right_sample {
+    s: 29.546
+    width: 2
+  }
+  right_sample {
+    s: 29.7602
+    width: 1.9978
+  }
+  right_sample {
+    s: 29.9609
+    width: 1.9999
+  }
+  right_sample {
+    s: 30.1545
+    width: 1.9976
+  }
+  right_sample {
+    s: 30.3552
+    width: 2
+  }
+  right_sample {
+    s: 30.5456
+    width: 2
+  }
+  right_sample {
+    s: 30.7494
+    width: 1.9987
+  }
+  right_sample {
+    s: 30.9264
+    width: 2
+  }
+  right_sample {
+    s: 31.1302
+    width: 1.9988
+  }
+  right_sample {
+    s: 31.3309
+    width: 2
+  }
+  right_sample {
+    s: 31.5347
+    width: 2
+  }
+  right_sample {
+    s: 31.7624
+    width: 1.9989
+  }
+  right_sample {
+    s: 31.9631
+    width: 2
+  }
+  right_sample {
+    s: 32.1772
+    width: 2
+  }
+  right_sample {
+    s: 32.3914
+    width: 2
+  }
+  right_sample {
+    s: 32.6055
+    width: 2
+  }
+  right_sample {
+    s: 32.8196
+    width: 1.9997
+  }
+  right_sample {
+    s: 33.0204
+    width: 2
+  }
+  right_sample {
+    s: 33.248
+    width: 1.999
+  }
+  right_sample {
+    s: 33.4725
+    width: 2
+  }
+  right_sample {
+    s: 33.7105
+    width: 2
+  }
+  right_sample {
+    s: 33.9722
+    width: 1.9991
+  }
+  right_sample {
+    s: 34.2072
+    width: 2
+  }
+  right_sample {
+    s: 34.4451
+    width: 1.9998
+  }
+  right_sample {
+    s: 34.6934
+    width: 2
+  }
+  right_sample {
+    s: 34.9313
+    width: 2
+  }
+  right_sample {
+    s: 35.1827
+    width: 1.9991
+  }
+  right_sample {
+    s: 35.4073
+    width: 2
+  }
+  right_sample {
+    s: 35.6556
+    width: 2
+  }
+  right_sample {
+    s: 35.9039
+    width: 2
+  }
+  right_sample {
+    s: 36.1522
+    width: 2
+  }
+  right_sample {
+    s: 36.4274
+    width: 1.9991
+  }
+  right_sample {
+    s: 36.6519
+    width: 2
+  }
+  right_sample {
+    s: 36.924
+    width: 2
+  }
+  right_sample {
+    s: 37.1724
+    width: 2
+  }
+  right_sample {
+    s: 37.4207
+    width: 1.9999
+  }
+  right_sample {
+    s: 37.6586
+    width: 1.9979
+  }
+  right_sample {
+    s: 37.8803
+    width: 2
+  }
+  right_sample {
+    s: 38.1183
+    width: 2
+  }
+  right_sample {
+    s: 38.3562
+    width: 1.9998
+  }
+  right_sample {
+    s: 38.6045
+    width: 1.9997
+  }
+  right_sample {
+    s: 38.8395
+    width: 2
+  }
+  right_sample {
+    s: 39.0774
+    width: 2
+  }
+  right_sample {
+    s: 39.3392
+    width: 1.9982
+  }
+  right_sample {
+    s: 39.5847
+    width: 2
+  }
+  right_sample {
+    s: 39.8226
+    width: 1.9991
+  }
+  right_sample {
+    s: 40.0576
+    width: 2
+  }
+  right_sample {
+    s: 40.2479
+    width: 1.9998
+  }
+  right_sample {
+    s: 40.52
+    width: 1.9987
+  }
+  right_sample {
+    s: 40.6837
+    width: 2
+  }
+  right_sample {
+    s: 40.9216
+    width: 1.9991
+  }
+  right_sample {
+    s: 41.1566
+    width: 2
+  }
+  right_sample {
+    s: 41.4391
+    width: 2
+  }
+  right_sample {
+    s: 41.6637
+    width: 1.9998
+  }
+  right_sample {
+    s: 41.8987
+    width: 2
+  }
+  right_sample {
+    s: 42.1336
+    width: 2
+  }
+  right_sample {
+    s: 42.3582
+    width: 1.9995
+  }
+  right_sample {
+    s: 42.5456
+    width: 2
+  }
+  right_sample {
+    s: 42.7701
+    width: 1.9998
+  }
+  right_sample {
+    s: 43.0051
+    width: 2
+  }
+  right_sample {
+    s: 43.2296
+    width: 2
+  }
+  right_sample {
+    s: 43.4542
+    width: 1.9998
+  }
+  right_sample {
+    s: 43.6891
+    width: 2
+  }
+  right_sample {
+    s: 43.9613
+    width: 2
+  }
+  right_sample {
+    s: 44.1858
+    width: 2
+  }
+  right_sample {
+    s: 44.4103
+    width: 1.9992
+  }
+  right_sample {
+    s: 44.6558
+    width: 1.9999
+  }
+  right_sample {
+    s: 44.8224
+    width: 1.9981
+  }
+  right_sample {
+    s: 45.0441
+    width: 2
+  }
+  right_sample {
+    s: 45.2686
+    width: 2
+  }
+  right_sample {
+    s: 45.4931
+    width: 1.999
+  }
+  right_sample {
+    s: 45.7149
+    width: 2
+  }
+  right_sample {
+    s: 45.929
+    width: 1.9998
+  }
+  right_sample {
+    s: 46.2011
+    width: 1.9995
+  }
+  right_sample {
+    s: 46.4123
+    width: 2
+  }
+  right_sample {
+    s: 46.6369
+    width: 2
+  }
+  right_sample {
+    s: 46.8614
+    width: 1.9987
+  }
+  right_sample {
+    s: 47.025
+    width: 1.9999
+  }
+  right_sample {
+    s: 47.263
+    width: 1.9979
+  }
+  right_sample {
+    s: 47.4847
+    width: 2
+  }
+  right_sample {
+    s: 47.6988
+    width: 2
+  }
+  right_sample {
+    s: 47.913
+    width: 1.9989
+  }
+  right_sample {
+    s: 48.1242
+    width: 2
+  }
+  right_sample {
+    s: 48.3383
+    width: 1.9989
+  }
+  right_sample {
+    s: 48.5495
+    width: 2
+  }
+  right_sample {
+    s: 48.7637
+    width: 1.9989
+  }
+  right_sample {
+    s: 48.9749
+    width: 2
+  }
+  right_sample {
+    s: 49.189
+    width: 1.9997
+  }
+  right_sample {
+    s: 49.3898
+    width: 1.9965
+  }
+  right_sample {
+    s: 49.601
+    width: 1.9757
+  }
+  right_sample {
+    s: 49.8048
+    width: 1.944
+  }
+  direction: FORWARD
+  left_road_sample {
+    s: 0
+    width: 4
+  }
+  left_road_sample {
+    s: 0.1666
+    width: 4
+  }
+  left_road_sample {
+    s: 0.4045
+    width: 4
+  }
+  left_road_sample {
+    s: 0.6528
+    width: 3.9999
+  }
+  left_road_sample {
+    s: 0.8878
+    width: 3.9985
+  }
+  left_road_sample {
+    s: 1.1257
+    width: 4
+  }
+  left_road_sample {
+    s: 1.374
+    width: 3.9999
+  }
+  left_road_sample {
+    s: 1.609
+    width: 3.9985
+  }
+  left_road_sample {
+    s: 1.8469
+    width: 4
+  }
+  left_road_sample {
+    s: 2.1533
+    width: 3.9996
+  }
+  left_road_sample {
+    s: 2.3883
+    width: 3.9939
+  }
+  left_road_sample {
+    s: 2.5683
+    width: 4
+  }
+  left_road_sample {
+    s: 2.8033
+    width: 4
+  }
+  left_road_sample {
+    s: 3.0383
+    width: 3.9996
+  }
+  left_road_sample {
+    s: 3.2628
+    width: 4
+  }
+  left_road_sample {
+    s: 3.4978
+    width: 3.9996
+  }
+  left_road_sample {
+    s: 3.7223
+    width: 4
+  }
+  left_road_sample {
+    s: 3.9573
+    width: 3.9996
+  }
+  left_road_sample {
+    s: 4.1818
+    width: 4
+  }
+  left_road_sample {
+    s: 4.4063
+    width: 4
+  }
+  left_road_sample {
+    s: 4.6547
+    width: 4
+  }
+  left_road_sample {
+    s: 4.8792
+    width: 3.9942
+  }
+  left_road_sample {
+    s: 5.0933
+    width: 3.9999
+  }
+  left_road_sample {
+    s: 5.3151
+    width: 3.9983
+  }
+  left_road_sample {
+    s: 5.5396
+    width: 3.9942
+  }
+  left_road_sample {
+    s: 5.7537
+    width: 3.9996
+  }
+  left_road_sample {
+    s: 5.9754
+    width: 3.9967
+  }
+  left_road_sample {
+    s: 6.1896
+    width: 3.9999
+  }
+  left_road_sample {
+    s: 6.4008
+    width: 3.9942
+  }
+  left_road_sample {
+    s: 6.6149
+    width: 3.9996
+  }
+  left_road_sample {
+    s: 6.8367
+    width: 3.9967
+  }
+  left_road_sample {
+    s: 7.0508
+    width: 4
+  }
+  left_road_sample {
+    s: 7.262
+    width: 4
+  }
+  left_road_sample {
+    s: 7.4732
+    width: 3.9996
+  }
+  left_road_sample {
+    s: 7.6844
+    width: 3.9935
+  }
+  left_road_sample {
+    s: 7.8882
+    width: 4
+  }
+  left_road_sample {
+    s: 8.0994
+    width: 3.9995
+  }
+  left_road_sample {
+    s: 8.3002
+    width: 4
+  }
+  left_road_sample {
+    s: 8.5009
+    width: 4
+  }
+  left_road_sample {
+    s: 8.7121
+    width: 3.9995
+  }
+  left_road_sample {
+    s: 8.9129
+    width: 3.9971
+  }
+  left_road_sample {
+    s: 9.1167
+    width: 4
+  }
+  left_road_sample {
+    s: 9.3174
+    width: 4
+  }
+  left_road_sample {
+    s: 9.5182
+    width: 4
+  }
+  left_road_sample {
+    s: 9.7189
+    width: 4
+  }
+  left_road_sample {
+    s: 9.9196
+    width: 4
+  }
+  left_road_sample {
+    s: 10.1204
+    width: 4
+  }
+  left_road_sample {
+    s: 10.3211
+    width: 4
+  }
+  left_road_sample {
+    s: 10.5323
+    width: 3.9995
+  }
+  left_road_sample {
+    s: 10.7331
+    width: 3.9964
+  }
+  left_road_sample {
+    s: 10.9234
+    width: 3.9998
+  }
+  left_road_sample {
+    s: 11.1108
+    width: 3.9979
+  }
+  left_road_sample {
+    s: 11.3012
+    width: 4
+  }
+  left_road_sample {
+    s: 11.5257
+    width: 3.9971
+  }
+  left_road_sample {
+    s: 11.6685
+    width: 4
+  }
+  left_road_sample {
+    s: 11.8797
+    width: 3.9995
+  }
+  left_road_sample {
+    s: 12.0804
+    width: 3.9994
+  }
+  left_road_sample {
+    s: 12.2946
+    width: 4
+  }
+  left_road_sample {
+    s: 12.5771
+    width: 3.9988
+  }
+  left_road_sample {
+    s: 12.7912
+    width: 4
+  }
+  left_road_sample {
+    s: 13.0158
+    width: 3.9997
+  }
+  left_road_sample {
+    s: 13.1689
+    width: 3.9979
+  }
+  left_road_sample {
+    s: 13.3965
+    width: 4
+  }
+  left_road_sample {
+    s: 13.6211
+    width: 3.9997
+  }
+  left_road_sample {
+    s: 13.8561
+    width: 3.9969
+  }
+  left_road_sample {
+    s: 14.0837
+    width: 4
+  }
+  left_road_sample {
+    s: 14.3216
+    width: 4
+  }
+  left_road_sample {
+    s: 14.5699
+    width: 4
+  }
+  left_road_sample {
+    s: 14.8182
+    width: 4
+  }
+  left_road_sample {
+    s: 15.1379
+    width: 3.9999
+  }
+  left_road_sample {
+    s: 15.3862
+    width: 3.9972
+  }
+  left_road_sample {
+    s: 15.5663
+    width: 4
+  }
+  left_road_sample {
+    s: 15.8146
+    width: 4
+  }
+  left_road_sample {
+    s: 16.0629
+    width: 4
+  }
+  left_road_sample {
+    s: 16.3112
+    width: 3.9996
+  }
+  left_road_sample {
+    s: 16.5492
+    width: 3.9995
+  }
+  left_road_sample {
+    s: 16.8006
+    width: 4
+  }
+  left_road_sample {
+    s: 17.0489
+    width: 4
+  }
+  left_road_sample {
+    s: 17.3686
+    width: 3.9997
+  }
+  left_road_sample {
+    s: 17.6065
+    width: 4
+  }
+  left_road_sample {
+    s: 17.8072
+    width: 3.9994
+  }
+  left_road_sample {
+    s: 18.0452
+    width: 4
+  }
+  left_road_sample {
+    s: 18.2935
+    width: 3.9996
+  }
+  left_road_sample {
+    s: 18.5314
+    width: 4
+  }
+  left_road_sample {
+    s: 18.7693
+    width: 4
+  }
+  left_road_sample {
+    s: 19.0073
+    width: 4
+  }
+  left_road_sample {
+    s: 19.2556
+    width: 3.9996
+  }
+  left_road_sample {
+    s: 19.4935
+    width: 4
+  }
+  left_road_sample {
+    s: 19.7315
+    width: 3.9994
+  }
+  left_road_sample {
+    s: 19.9694
+    width: 4
+  }
+  left_road_sample {
+    s: 20.2281
+    width: 3.9987
+  }
+  left_road_sample {
+    s: 20.4661
+    width: 4
+  }
+  left_road_sample {
+    s: 20.704
+    width: 3.999
+  }
+  left_road_sample {
+    s: 20.9419
+    width: 3.9999
+  }
+  left_road_sample {
+    s: 21.1769
+    width: 3.9985
+  }
+  left_road_sample {
+    s: 21.4149
+    width: 3.9997
+  }
+  left_road_sample {
+    s: 21.6498
+    width: 3.9969
+  }
+  left_road_sample {
+    s: 21.8774
+    width: 4
+  }
+  left_road_sample {
+    s: 22.1154
+    width: 4
+  }
+  left_road_sample {
+    s: 22.3399
+    width: 3.9995
+  }
+  left_road_sample {
+    s: 22.5778
+    width: 3.9999
+  }
+  left_road_sample {
+    s: 22.8024
+    width: 3.9984
+  }
+  left_road_sample {
+    s: 23.03
+    width: 3.9999
+  }
+  left_road_sample {
+    s: 23.2545
+    width: 3.9984
+  }
+  left_road_sample {
+    s: 23.4821
+    width: 4
+  }
+  left_road_sample {
+    s: 23.7066
+    width: 3.9999
+  }
+  left_road_sample {
+    s: 23.9312
+    width: 3.9984
+  }
+  left_road_sample {
+    s: 24.1588
+    width: 4
+  }
+  left_road_sample {
+    s: 24.3729
+    width: 4
+  }
+  left_road_sample {
+    s: 24.5974
+    width: 3.9995
+  }
+  left_road_sample {
+    s: 24.8116
+    width: 4
+  }
+  left_road_sample {
+    s: 25.0361
+    width: 3.9995
+  }
+  left_road_sample {
+    s: 25.2502
+    width: 3.9979
+  }
+  left_road_sample {
+    s: 25.4676
+    width: 4
+  }
+  left_road_sample {
+    s: 25.6818
+    width: 4
+  }
+  left_road_sample {
+    s: 25.8959
+    width: 4
+  }
+  left_road_sample {
+    s: 26.11
+    width: 4
+  }
+  left_road_sample {
+    s: 26.3242
+    width: 4
+  }
+  left_road_sample {
+    s: 26.5383
+    width: 3.9994
+  }
+  left_road_sample {
+    s: 26.7421
+    width: 4
+  }
+  left_road_sample {
+    s: 26.9325
+    width: 3.999
+  }
+  left_road_sample {
+    s: 27.1601
+    width: 3.9935
+  }
+  left_road_sample {
+    s: 27.3639
+    width: 3.9996
+  }
+  left_road_sample {
+    s: 27.5751
+    width: 3.9964
+  }
+  left_road_sample {
+    s: 27.7789
+    width: 3.9999
+  }
+  left_road_sample {
+    s: 27.9828
+    width: 4
+  }
+  left_road_sample {
+    s: 28.1731
+    width: 3.9971
+  }
+  left_road_sample {
+    s: 28.3769
+    width: 3.9998
+  }
+  left_road_sample {
+    s: 28.5777
+    width: 3.9981
+  }
+  left_road_sample {
+    s: 28.7815
+    width: 3.9998
+  }
+  left_road_sample {
+    s: 28.9615
+    width: 4
+  }
+  left_road_sample {
+    s: 29.1519
+    width: 3.9994
+  }
+  left_road_sample {
+    s: 29.3557
+    width: 4
+  }
+  left_road_sample {
+    s: 29.546
+    width: 3.9999
+  }
+  left_road_sample {
+    s: 29.7602
+    width: 3.9994
+  }
+  left_road_sample {
+    s: 29.9609
+    width: 3.9928
+  }
+  left_road_sample {
+    s: 30.1545
+    width: 4
+  }
+  left_road_sample {
+    s: 30.3552
+    width: 3.9994
+  }
+  left_road_sample {
+    s: 30.5456
+    width: 3.9966
+  }
+  left_road_sample {
+    s: 30.7494
+    width: 3.9998
+  }
+  left_road_sample {
+    s: 30.9264
+    width: 3.9971
+  }
+  left_road_sample {
+    s: 31.1302
+    width: 3.9998
+  }
+  left_road_sample {
+    s: 31.3309
+    width: 3.9981
+  }
+  left_road_sample {
+    s: 31.5347
+    width: 3.998
+  }
+  left_road_sample {
+    s: 31.7624
+    width: 4
+  }
+  left_road_sample {
+    s: 31.9631
+    width: 3.9994
+  }
+  left_road_sample {
+    s: 32.1772
+    width: 4
+  }
+  left_road_sample {
+    s: 32.3914
+    width: 4
+  }
+  left_road_sample {
+    s: 32.6055
+    width: 3.9999
+  }
+  left_road_sample {
+    s: 32.8196
+    width: 3.9999
+  }
+  left_road_sample {
+    s: 33.0204
+    width: 3.9983
+  }
+  left_road_sample {
+    s: 33.248
+    width: 4
+  }
+  left_road_sample {
+    s: 33.4725
+    width: 3.9995
+  }
+  left_road_sample {
+    s: 33.7105
+    width: 3.9993
+  }
+  left_road_sample {
+    s: 33.9722
+    width: 3.9999
+  }
+  left_road_sample {
+    s: 34.2072
+    width: 3.9985
+  }
+  left_road_sample {
+    s: 34.4451
+    width: 4
+  }
+  left_road_sample {
+    s: 34.6934
+    width: 3.9996
+  }
+  left_road_sample {
+    s: 34.9313
+    width: 3.9992
+  }
+  left_road_sample {
+    s: 35.1827
+    width: 4
+  }
+  left_road_sample {
+    s: 35.4073
+    width: 4
+  }
+  left_road_sample {
+    s: 35.6556
+    width: 4
+  }
+  left_road_sample {
+    s: 35.9039
+    width: 3.9999
+  }
+  left_road_sample {
+    s: 36.1522
+    width: 3.9987
+  }
+  left_road_sample {
+    s: 36.4274
+    width: 4
+  }
+  left_road_sample {
+    s: 36.6519
+    width: 4
+  }
+  left_road_sample {
+    s: 36.924
+    width: 4
+  }
+  left_road_sample {
+    s: 37.1724
+    width: 4
+  }
+  left_road_sample {
+    s: 37.4207
+    width: 3.9942
+  }
+  left_road_sample {
+    s: 37.6586
+    width: 3.9996
+  }
+  left_road_sample {
+    s: 37.8803
+    width: 3.9967
+  }
+  left_road_sample {
+    s: 38.1183
+    width: 4
+  }
+  left_road_sample {
+    s: 38.3562
+    width: 4
+  }
+  left_road_sample {
+    s: 38.6045
+    width: 3.9999
+  }
+  left_road_sample {
+    s: 38.8395
+    width: 3.9985
+  }
+  left_road_sample {
+    s: 39.0774
+    width: 3.9958
+  }
+  left_road_sample {
+    s: 39.3392
+    width: 3.9998
+  }
+  left_road_sample {
+    s: 39.5847
+    width: 3.9971
+  }
+  left_road_sample {
+    s: 39.8226
+    width: 3.9999
+  }
+  left_road_sample {
+    s: 40.0576
+    width: 3.9985
+  }
+  left_road_sample {
+    s: 40.2479
+    width: 3.9994
+  }
+  left_road_sample {
+    s: 40.52
+    width: 3.9996
+  }
+  left_road_sample {
+    s: 40.6837
+    width: 3.9975
+  }
+  left_road_sample {
+    s: 40.9216
+    width: 4
+  }
+  left_road_sample {
+    s: 41.1566
+    width: 3.9999
+  }
+  left_road_sample {
+    s: 41.4391
+    width: 3.9998
+  }
+  left_road_sample {
+    s: 41.6637
+    width: 4
+  }
+  left_road_sample {
+    s: 41.8987
+    width: 4
+  }
+  left_road_sample {
+    s: 42.1336
+    width: 3.9996
+  }
+  left_road_sample {
+    s: 42.3582
+    width: 4
+  }
+  left_road_sample {
+    s: 42.5456
+    width: 3.9992
+  }
+  left_road_sample {
+    s: 42.7701
+    width: 4
+  }
+  left_road_sample {
+    s: 43.0051
+    width: 3.9996
+  }
+  left_road_sample {
+    s: 43.2296
+    width: 4
+  }
+  left_road_sample {
+    s: 43.4542
+    width: 4
+  }
+  left_road_sample {
+    s: 43.6891
+    width: 3.9994
+  }
+  left_road_sample {
+    s: 43.9613
+    width: 4
+  }
+  left_road_sample {
+    s: 44.1858
+    width: 3.9993
+  }
+  left_road_sample {
+    s: 44.4103
+    width: 3.9998
+  }
+  left_road_sample {
+    s: 44.6558
+    width: 3.9945
+  }
+  left_road_sample {
+    s: 44.8224
+    width: 3.9999
+  }
+  left_road_sample {
+    s: 45.0441
+    width: 3.9983
+  }
+  left_road_sample {
+    s: 45.2686
+    width: 3.9982
+  }
+  left_road_sample {
+    s: 45.4931
+    width: 3.9996
+  }
+  left_road_sample {
+    s: 45.7149
+    width: 3.9967
+  }
+  left_road_sample {
+    s: 45.929
+    width: 3.9999
+  }
+  left_road_sample {
+    s: 46.2011
+    width: 4
+  }
+  left_road_sample {
+    s: 46.4123
+    width: 3.9994
+  }
+  left_road_sample {
+    s: 46.6369
+    width: 3.9993
+  }
+  left_road_sample {
+    s: 46.8614
+    width: 3.9996
+  }
+  left_road_sample {
+    s: 47.025
+    width: 3.9918
+  }
+  left_road_sample {
+    s: 47.263
+    width: 3.9196
+  }
+  left_road_sample {
+    s: 47.4847
+    width: 3.8528
+  }
+  left_road_sample {
+    s: 47.6988
+    width: 3.8108
+  }
+  left_road_sample {
+    s: 47.913
+    width: 3.7804
+  }
+  left_road_sample {
+    s: 48.1242
+    width: 3.7543
+  }
+  left_road_sample {
+    s: 48.3383
+    width: 3.7478
+  }
+  left_road_sample {
+    s: 48.5495
+    width: 3.7455
+  }
+  left_road_sample {
+    s: 48.7637
+    width: 3.7633
+  }
+  left_road_sample {
+    s: 48.9749
+    width: 3.7848
+  }
+  left_road_sample {
+    s: 49.189
+    width: 3.8258
+  }
+  left_road_sample {
+    s: 49.3898
+    width: 3.863
+  }
+  left_road_sample {
+    s: 49.601
+    width: 3.8984
+  }
+  left_road_sample {
+    s: 49.8048
+    width: 3.944
+  }
+  right_road_sample {
+    s: 0
+    width: 2
+  }
+  right_road_sample {
+    s: 0.1666
+    width: 2
+  }
+  right_road_sample {
+    s: 0.4045
+    width: 1.9998
+  }
+  right_road_sample {
+    s: 0.6528
+    width: 1.9997
+  }
+  right_road_sample {
+    s: 0.8878
+    width: 2
+  }
+  right_road_sample {
+    s: 1.1257
+    width: 1.9998
+  }
+  right_road_sample {
+    s: 1.374
+    width: 1.9997
+  }
+  right_road_sample {
+    s: 1.609
+    width: 2
+  }
+  right_road_sample {
+    s: 1.8469
+    width: 1.9994
+  }
+  right_road_sample {
+    s: 2.1533
+    width: 1.9993
+  }
+  right_road_sample {
+    s: 2.3883
+    width: 1.9999
+  }
+  right_road_sample {
+    s: 2.5683
+    width: 1.9979
+  }
+  right_road_sample {
+    s: 2.8033
+    width: 2
+  }
+  right_road_sample {
+    s: 3.0383
+    width: 2
+  }
+  right_road_sample {
+    s: 3.2628
+    width: 1.9998
+  }
+  right_road_sample {
+    s: 3.4978
+    width: 2
+  }
+  right_road_sample {
+    s: 3.7223
+    width: 1.9998
+  }
+  right_road_sample {
+    s: 3.9573
+    width: 2
+  }
+  right_road_sample {
+    s: 4.1818
+    width: 2
+  }
+  right_road_sample {
+    s: 4.4063
+    width: 2
+  }
+  right_road_sample {
+    s: 4.6547
+    width: 2
+  }
+  right_road_sample {
+    s: 4.8792
+    width: 1.9999
+  }
+  right_road_sample {
+    s: 5.0933
+    width: 1.998
+  }
+  right_road_sample {
+    s: 5.3151
+    width: 2
+  }
+  right_road_sample {
+    s: 5.5396
+    width: 1.9999
+  }
+  right_road_sample {
+    s: 5.7537
+    width: 1.998
+  }
+  right_road_sample {
+    s: 5.9754
+    width: 2
+  }
+  right_road_sample {
+    s: 6.1896
+    width: 1.9989
+  }
+  right_road_sample {
+    s: 6.4008
+    width: 1.9999
+  }
+  right_road_sample {
+    s: 6.6149
+    width: 1.998
+  }
+  right_road_sample {
+    s: 6.8367
+    width: 2
+  }
+  right_road_sample {
+    s: 7.0508
+    width: 1.9989
+  }
+  right_road_sample {
+    s: 7.262
+    width: 2
+  }
+  right_road_sample {
+    s: 7.4732
+    width: 1.9988
+  }
+  right_road_sample {
+    s: 7.6844
+    width: 1.9999
+  }
+  right_road_sample {
+    s: 7.8882
+    width: 1.9978
+  }
+  right_road_sample {
+    s: 8.0994
+    width: 2
+  }
+  right_road_sample {
+    s: 8.3002
+    width: 2
+  }
+  right_road_sample {
+    s: 8.5009
+    width: 1.9997
+  }
+  right_road_sample {
+    s: 8.7121
+    width: 1.9998
+  }
+  right_road_sample {
+    s: 8.9129
+    width: 2
+  }
+  right_road_sample {
+    s: 9.1167
+    width: 1.9988
+  }
+  right_road_sample {
+    s: 9.3174
+    width: 2
+  }
+  right_road_sample {
+    s: 9.5182
+    width: 2
+  }
+  right_road_sample {
+    s: 9.7189
+    width: 2
+  }
+  right_road_sample {
+    s: 9.9196
+    width: 2
+  }
+  right_road_sample {
+    s: 10.1204
+    width: 2
+  }
+  right_road_sample {
+    s: 10.3211
+    width: 1.9997
+  }
+  right_road_sample {
+    s: 10.5323
+    width: 2
+  }
+  right_road_sample {
+    s: 10.7331
+    width: 2
+  }
+  right_road_sample {
+    s: 10.9234
+    width: 1.9987
+  }
+  right_road_sample {
+    s: 11.1108
+    width: 2
+  }
+  right_road_sample {
+    s: 11.3012
+    width: 1.9997
+  }
+  right_road_sample {
+    s: 11.5257
+    width: 2
+  }
+  right_road_sample {
+    s: 11.6685
+    width: 1.999
+  }
+  right_road_sample {
+    s: 11.8797
+    width: 2
+  }
+  right_road_sample {
+    s: 12.0804
+    width: 2
+  }
+  right_road_sample {
+    s: 12.2946
+    width: 1.9994
+  }
+  right_road_sample {
+    s: 12.5771
+    width: 2
+  }
+  right_road_sample {
+    s: 12.7912
+    width: 1.9997
+  }
+  right_road_sample {
+    s: 13.0158
+    width: 1.9992
+  }
+  right_road_sample {
+    s: 13.1689
+    width: 2
+  }
+  right_road_sample {
+    s: 13.3965
+    width: 1.999
+  }
+  right_road_sample {
+    s: 13.6211
+    width: 1.9996
+  }
+  right_road_sample {
+    s: 13.8561
+    width: 2
+  }
+  right_road_sample {
+    s: 14.0837
+    width: 1.9997
+  }
+  right_road_sample {
+    s: 14.3216
+    width: 1.9998
+  }
+  right_road_sample {
+    s: 14.5699
+    width: 2
+  }
+  right_road_sample {
+    s: 14.8182
+    width: 2
+  }
+  right_road_sample {
+    s: 15.1379
+    width: 1.9999
+  }
+  right_road_sample {
+    s: 15.3862
+    width: 2
+  }
+  right_road_sample {
+    s: 15.5663
+    width: 1.9989
+  }
+  right_road_sample {
+    s: 15.8146
+    width: 2
+  }
+  right_road_sample {
+    s: 16.0629
+    width: 2
+  }
+  right_road_sample {
+    s: 16.3112
+    width: 2
+  }
+  right_road_sample {
+    s: 16.5492
+    width: 2
+  }
+  right_road_sample {
+    s: 16.8006
+    width: 1.9992
+  }
+  right_road_sample {
+    s: 17.0489
+    width: 2
+  }
+  right_road_sample {
+    s: 17.3686
+    width: 2
+  }
+  right_road_sample {
+    s: 17.6065
+    width: 1.9997
+  }
+  right_road_sample {
+    s: 17.8072
+    width: 2
+  }
+  right_road_sample {
+    s: 18.0452
+    width: 1.9998
+  }
+  right_road_sample {
+    s: 18.2935
+    width: 2
+  }
+  right_road_sample {
+    s: 18.5314
+    width: 2
+  }
+  right_road_sample {
+    s: 18.7693
+    width: 2
+  }
+  right_road_sample {
+    s: 19.0073
+    width: 1.9998
+  }
+  right_road_sample {
+    s: 19.2556
+    width: 2
+  }
+  right_road_sample {
+    s: 19.4935
+    width: 2
+  }
+  right_road_sample {
+    s: 19.7315
+    width: 2
+  }
+  right_road_sample {
+    s: 19.9694
+    width: 1.9992
+  }
+  right_road_sample {
+    s: 20.2281
+    width: 2
+  }
+  right_road_sample {
+    s: 20.4661
+    width: 2
+  }
+  right_road_sample {
+    s: 20.704
+    width: 2
+  }
+  right_road_sample {
+    s: 20.9419
+    width: 1.9991
+  }
+  right_road_sample {
+    s: 21.1769
+    width: 2
+  }
+  right_road_sample {
+    s: 21.4149
+    width: 1.9991
+  }
+  right_road_sample {
+    s: 21.6498
+    width: 2
+  }
+  right_road_sample {
+    s: 21.8774
+    width: 1.9997
+  }
+  right_road_sample {
+    s: 22.1154
+    width: 1.9997
+  }
+  right_road_sample {
+    s: 22.3399
+    width: 2
+  }
+  right_road_sample {
+    s: 22.5778
+    width: 1.9997
+  }
+  right_road_sample {
+    s: 22.8024
+    width: 2
+  }
+  right_road_sample {
+    s: 23.03
+    width: 1.999
+  }
+  right_road_sample {
+    s: 23.2545
+    width: 2
+  }
+  right_road_sample {
+    s: 23.4821
+    width: 1.999
+  }
+  right_road_sample {
+    s: 23.7066
+    width: 1.9999
+  }
+  right_road_sample {
+    s: 23.9312
+    width: 2
+  }
+  right_road_sample {
+    s: 24.1588
+    width: 1.9997
+  }
+  right_road_sample {
+    s: 24.3729
+    width: 1.9997
+  }
+  right_road_sample {
+    s: 24.5974
+    width: 2
+  }
+  right_road_sample {
+    s: 24.8116
+    width: 1.9997
+  }
+  right_road_sample {
+    s: 25.0361
+    width: 1.9999
+  }
+  right_road_sample {
+    s: 25.2502
+    width: 2
+  }
+  right_road_sample {
+    s: 25.4676
+    width: 1.999
+  }
+  right_road_sample {
+    s: 25.6818
+    width: 2
+  }
+  right_road_sample {
+    s: 25.8959
+    width: 2
+  }
+  right_road_sample {
+    s: 26.11
+    width: 2
+  }
+  right_road_sample {
+    s: 26.3242
+    width: 2
+  }
+  right_road_sample {
+    s: 26.5383
+    width: 2
+  }
+  right_road_sample {
+    s: 26.7421
+    width: 1.9997
+  }
+  right_road_sample {
+    s: 26.9325
+    width: 2
+  }
+  right_road_sample {
+    s: 27.1601
+    width: 1.9999
+  }
+  right_road_sample {
+    s: 27.3639
+    width: 1.9978
+  }
+  right_road_sample {
+    s: 27.5751
+    width: 2
+  }
+  right_road_sample {
+    s: 27.7789
+    width: 2
+  }
+  right_road_sample {
+    s: 27.9828
+    width: 1.9997
+  }
+  right_road_sample {
+    s: 28.1731
+    width: 2
+  }
+  right_road_sample {
+    s: 28.3769
+    width: 1.9988
+  }
+  right_road_sample {
+    s: 28.5777
+    width: 2
+  }
+  right_road_sample {
+    s: 28.7815
+    width: 2
+  }
+  right_road_sample {
+    s: 28.9615
+    width: 1.9996
+  }
+  right_road_sample {
+    s: 29.1519
+    width: 2
+  }
+  right_road_sample {
+    s: 29.3557
+    width: 1.9997
+  }
+  right_road_sample {
+    s: 29.546
+    width: 2
+  }
+  right_road_sample {
+    s: 29.7602
+    width: 1.9978
+  }
+  right_road_sample {
+    s: 29.9609
+    width: 1.9999
+  }
+  right_road_sample {
+    s: 30.1545
+    width: 1.9976
+  }
+  right_road_sample {
+    s: 30.3552
+    width: 2
+  }
+  right_road_sample {
+    s: 30.5456
+    width: 2
+  }
+  right_road_sample {
+    s: 30.7494
+    width: 1.9987
+  }
+  right_road_sample {
+    s: 30.9264
+    width: 2
+  }
+  right_road_sample {
+    s: 31.1302
+    width: 1.9988
+  }
+  right_road_sample {
+    s: 31.3309
+    width: 2
+  }
+  right_road_sample {
+    s: 31.5347
+    width: 2
+  }
+  right_road_sample {
+    s: 31.7624
+    width: 1.9989
+  }
+  right_road_sample {
+    s: 31.9631
+    width: 2
+  }
+  right_road_sample {
+    s: 32.1772
+    width: 2
+  }
+  right_road_sample {
+    s: 32.3914
+    width: 2
+  }
+  right_road_sample {
+    s: 32.6055
+    width: 2
+  }
+  right_road_sample {
+    s: 32.8196
+    width: 1.9997
+  }
+  right_road_sample {
+    s: 33.0204
+    width: 2
+  }
+  right_road_sample {
+    s: 33.248
+    width: 1.999
+  }
+  right_road_sample {
+    s: 33.4725
+    width: 2
+  }
+  right_road_sample {
+    s: 33.7105
+    width: 2
+  }
+  right_road_sample {
+    s: 33.9722
+    width: 1.9991
+  }
+  right_road_sample {
+    s: 34.2072
+    width: 2
+  }
+  right_road_sample {
+    s: 34.4451
+    width: 1.9998
+  }
+  right_road_sample {
+    s: 34.6934
+    width: 2
+  }
+  right_road_sample {
+    s: 34.9313
+    width: 2
+  }
+  right_road_sample {
+    s: 35.1827
+    width: 1.9991
+  }
+  right_road_sample {
+    s: 35.4073
+    width: 2
+  }
+  right_road_sample {
+    s: 35.6556
+    width: 2
+  }
+  right_road_sample {
+    s: 35.9039
+    width: 2
+  }
+  right_road_sample {
+    s: 36.1522
+    width: 2
+  }
+  right_road_sample {
+    s: 36.4274
+    width: 1.9991
+  }
+  right_road_sample {
+    s: 36.6519
+    width: 2
+  }
+  right_road_sample {
+    s: 36.924
+    width: 2
+  }
+  right_road_sample {
+    s: 37.1724
+    width: 2
+  }
+  right_road_sample {
+    s: 37.4207
+    width: 1.9999
+  }
+  right_road_sample {
+    s: 37.6586
+    width: 1.9979
+  }
+  right_road_sample {
+    s: 37.8803
+    width: 2
+  }
+  right_road_sample {
+    s: 38.1183
+    width: 2
+  }
+  right_road_sample {
+    s: 38.3562
+    width: 1.9998
+  }
+  right_road_sample {
+    s: 38.6045
+    width: 1.9997
+  }
+  right_road_sample {
+    s: 38.8395
+    width: 2
+  }
+  right_road_sample {
+    s: 39.0774
+    width: 2
+  }
+  right_road_sample {
+    s: 39.3392
+    width: 1.9982
+  }
+  right_road_sample {
+    s: 39.5847
+    width: 2
+  }
+  right_road_sample {
+    s: 39.8226
+    width: 1.9991
+  }
+  right_road_sample {
+    s: 40.0576
+    width: 2
+  }
+  right_road_sample {
+    s: 40.2479
+    width: 1.9998
+  }
+  right_road_sample {
+    s: 40.52
+    width: 1.9987
+  }
+  right_road_sample {
+    s: 40.6837
+    width: 2
+  }
+  right_road_sample {
+    s: 40.9216
+    width: 1.9991
+  }
+  right_road_sample {
+    s: 41.1566
+    width: 2
+  }
+  right_road_sample {
+    s: 41.4391
+    width: 2
+  }
+  right_road_sample {
+    s: 41.6637
+    width: 1.9998
+  }
+  right_road_sample {
+    s: 41.8987
+    width: 2
+  }
+  right_road_sample {
+    s: 42.1336
+    width: 2
+  }
+  right_road_sample {
+    s: 42.3582
+    width: 1.9995
+  }
+  right_road_sample {
+    s: 42.5456
+    width: 2
+  }
+  right_road_sample {
+    s: 42.7701
+    width: 1.9998
+  }
+  right_road_sample {
+    s: 43.0051
+    width: 2
+  }
+  right_road_sample {
+    s: 43.2296
+    width: 2
+  }
+  right_road_sample {
+    s: 43.4542
+    width: 1.9998
+  }
+  right_road_sample {
+    s: 43.6891
+    width: 2
+  }
+  right_road_sample {
+    s: 43.9613
+    width: 2
+  }
+  right_road_sample {
+    s: 44.1858
+    width: 2
+  }
+  right_road_sample {
+    s: 44.4103
+    width: 1.9992
+  }
+  right_road_sample {
+    s: 44.6558
+    width: 1.9999
+  }
+  right_road_sample {
+    s: 44.8224
+    width: 1.9981
+  }
+  right_road_sample {
+    s: 45.0441
+    width: 2
+  }
+  right_road_sample {
+    s: 45.2686
+    width: 2
+  }
+  right_road_sample {
+    s: 45.4931
+    width: 1.999
+  }
+  right_road_sample {
+    s: 45.7149
+    width: 2
+  }
+  right_road_sample {
+    s: 45.929
+    width: 1.9998
+  }
+  right_road_sample {
+    s: 46.2011
+    width: 1.9995
+  }
+  right_road_sample {
+    s: 46.4123
+    width: 2
+  }
+  right_road_sample {
+    s: 46.6369
+    width: 2
+  }
+  right_road_sample {
+    s: 46.8614
+    width: 1.9987
+  }
+  right_road_sample {
+    s: 47.025
+    width: 1.9999
+  }
+  right_road_sample {
+    s: 47.263
+    width: 1.9979
+  }
+  right_road_sample {
+    s: 47.4847
+    width: 2
+  }
+  right_road_sample {
+    s: 47.6988
+    width: 2
+  }
+  right_road_sample {
+    s: 47.913
+    width: 1.9989
+  }
+  right_road_sample {
+    s: 48.1242
+    width: 2
+  }
+  right_road_sample {
+    s: 48.3383
+    width: 1.9989
+  }
+  right_road_sample {
+    s: 48.5495
+    width: 2
+  }
+  right_road_sample {
+    s: 48.7637
+    width: 1.9989
+  }
+  right_road_sample {
+    s: 48.9749
+    width: 2
+  }
+  right_road_sample {
+    s: 49.189
+    width: 1.9997
+  }
+  right_road_sample {
+    s: 49.3898
+    width: 1.9965
+  }
+  right_road_sample {
+    s: 49.601
+    width: 1.9757
+  }
+  right_road_sample {
+    s: 49.8048
+    width: 1.944
+  }
+}
+signal {
+  id {
+    id: "trafficlight"
+  }
+  boundary {
+    point {
+      x: 458117.10213018546
+      y: 4401155.8503516419
+      z: 3
+    }
+    point {
+      x: 458117.10213018546
+      y: 4401155.8503516419
+      z: 3.15
+    }
+    point {
+      x: 458117.3609251937
+      y: 4401156.1819080822
+      z: 3
+    }
+    point {
+      x: 458117.3609251937
+      y: 4401156.1819080822
+      z: 3
+    }
+  }
+  subsignal {
+    id {
+      id: "0"
+    }
+    type: ARROW_FORWARD
+    location {
+      x: 458117.23152769235
+      y: 4401156.0161298588
+      z: 3.1
+    }
+  }
+  subsignal {
+    id {
+      id: "1"
+    }
+    type: ARROW_FORWARD
+    location {
+      x: 458117.23152769235
+      y: 4401156.0161298588
+      z: 3.2
+    }
+  }
+  overlap_id {
+    id: "overlap_1"
+  }
+  type: MIX_2_VERTICAL
+  stop_line {
+    segment {
+      line_segment {
+        point {
+          x: 458113.5313513747
+          y: 4401157.535574575
+        }
+        point {
+          x: 458119.08161639387
+          y: 4401155.2564081782
+        }
+        point {
+          x: 458119.4614352847
+          y: 4401156.1814317591
+        }
+        point {
+          x: 458113.91117083054
+          y: 4401158.4605978876
+        }
+        point {
+          x: 458113.5313513747
+          y: 4401157.535574575
+        }
+      }
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_1"
+  }
+  object {
+    id {
+      id: "23232320_1_-1"
+    }
+    lane_overlap_info {
+      start_s: 16.5492
+      end_s: 16.7492
+      is_merge: false
+    }
+  }
+  object {
+    id {
+      id: "trafficlight"
+    }
+    signal_overlap_info {
+    }
+  }
+}
+road {
+  id {
+    id: "23232320"
+  }
+  section {
+    id {
+      id: "1"
+    }
+    lane_id {
+      id: "23232320_1_-1"
+    }
+    boundary {
+      outer_polygon {
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 458107.73504504852
+                  y: 4401141.9695074121
+                }
+                point {
+                  x: 458107.79585488496
+                  y: 4401142.1245609438
+                }
+                point {
+                  x: 458107.85978299216
+                  y: 4401142.2859238666
+                }
+                point {
+                  x: 458107.9221904336
+                  y: 4401142.451179727
+                }
+                point {
+                  x: 458108.04796308873
+                  y: 4401142.8002214907
+                }
+                point {
+                  x: 458108.11189118738
+                  y: 4401142.9615844153
+                }
+                point {
+                  x: 458108.17429861811
+                  y: 4401143.1268402776
+                }
+                point {
+                  x: 458108.30007125123
+                  y: 4401143.4758820487
+                }
+                point {
+                  x: 458108.35017470486
+                  y: 4401143.5998059418
+                }
+                point {
+                  x: 458108.44384157896
+                  y: 4401143.8579004826
+                }
+                point {
+                  x: 458108.60295756086
+                  y: 4401144.2892255411
+                }
+                point {
+                  x: 458108.59158312232
+                  y: 4401144.2455577143
+                }
+                point {
+                  x: 458108.66988832963
+                  y: 4401144.4671095358
+                }
+                point {
+                  x: 458108.77028485312
+                  y: 4401144.7496960545
+                }
+                point {
+                  x: 458108.82643814042
+                  y: 4401144.8991145445
+                }
+                point {
+                  x: 458108.92683465278
+                  y: 4401145.181701066
+                }
+                point {
+                  x: 458108.98298793618
+                  y: 4401145.3311195569
+                }
+                point {
+                  x: 458109.08338443737
+                  y: 4401145.6137060821
+                }
+                point {
+                  x: 458109.16162902926
+                  y: 4401145.8241592729
+                }
+                point {
+                  x: 458109.242220953
+                  y: 4401146.0409260616
+                }
+                point {
+                  x: 458109.32680530829
+                  y: 4401146.2672161656
+                }
+                point {
+                  x: 458109.43042594235
+                  y: 4401146.544124621
+                }
+                point {
+                  x: 458109.43511478743
+                  y: 4401146.5399924088
+                }
+                point {
+                  x: 458109.55291250866
+                  y: 4401146.8875238793
+                }
+                point {
+                  x: 458109.65653312654
+                  y: 4401147.1644323375
+                }
+                point {
+                  x: 458109.6612219736
+                  y: 4401147.1603001244
+                }
+                point {
+                  x: 458109.80439572211
+                  y: 4401147.5742868623
+                }
+                point {
+                  x: 458109.82997967291
+                  y: 4401147.6317508286
+                }
+                point {
+                  x: 458109.9521977175
+                  y: 4401147.9730427545
+                }
+                point {
+                  x: 458109.956886562
+                  y: 4401147.96891054
+                }
+                point {
+                  x: 458110.10006028455
+                  y: 4401148.3828972839
+                }
+                point {
+                  x: 458110.12564422842
+                  y: 4401148.4403612511
+                }
+                point {
+                  x: 458110.19526224356
+                  y: 4401148.6397625795
+                }
+                point {
+                  x: 458110.26488025737
+                  y: 4401148.8391639106
+                }
+                point {
+                  x: 458110.41644916555
+                  y: 4401149.2532158205
+                }
+                point {
+                  x: 458110.4126216193
+                  y: 4401149.2268211776
+                }
+                point {
+                  x: 458110.50650753884
+                  y: 4401149.4936827309
+                }
+                point {
+                  x: 458110.576064949
+                  y: 4401149.6819854286
+                }
+                point {
+                  x: 458110.62135444384
+                  y: 4401149.8028279077
+                }
+                point {
+                  x: 458110.71524034941
+                  y: 4401150.0696894629
+                }
+                point {
+                  x: 458110.84248070983
+                  y: 4401150.4051825255
+                }
+                point {
+                  x: 458110.86292107817
+                  y: 4401150.4462481057
+                }
+                point {
+                  x: 458110.93247847352
+                  y: 4401150.6345508089
+                }
+                point {
+                  x: 458111.0020358655
+                  y: 4401150.82285351
+                }
+                point {
+                  x: 458111.07159325195
+                  y: 4401151.0111562135
+                }
+                point {
+                  x: 458111.1411506373
+                  y: 4401151.1994589185
+                }
+                point {
+                  x: 458111.21070801927
+                  y: 4401151.3877616236
+                }
+                point {
+                  x: 458111.25599749235
+                  y: 4401151.5086041056
+                }
+                point {
+                  x: 458111.349883356
+                  y: 4401151.7754656682
+                }
+                point {
+                  x: 458111.44777278305
+                  y: 4401152.0381987616
+                }
+                point {
+                  x: 458111.45840278245
+                  y: 4401152.0553441318
+                }
+                point {
+                  x: 458111.57820041716
+                  y: 4401152.3926536692
+                }
+                point {
+                  x: 458111.62232117658
+                  y: 4401152.5034024762
+                }
+                point {
+                  x: 458111.72594164527
+                  y: 4401152.7803109633
+                }
+                point {
+                  x: 458111.72546427464
+                  y: 4401152.7713234071
+                }
+                point {
+                  x: 458111.81935010944
+                  y: 4401153.0381849771
+                }
+                point {
+                  x: 458111.91723950504
+                  y: 4401153.3009180753
+                }
+                point {
+                  x: 458111.95561223209
+                  y: 4401153.3943838757
+                }
+                point {
+                  x: 458112.09110256552
+                  y: 4401153.7661255421
+                }
+                point {
+                  x: 458112.14391040587
+                  y: 4401153.89902486
+                }
+                point {
+                  x: 458112.21076322772
+                  y: 4401154.0783521766
+                }
+                point {
+                  x: 458112.32593930879
+                  y: 4401154.38505381
+                }
+                point {
+                  x: 458112.36114832119
+                  y: 4401154.4638862452
+                }
+                point {
+                  x: 458112.4173014707
+                  y: 4401154.613304765
+                }
+                point {
+                  x: 458112.5692990548
+                  y: 4401155.0274653677
+                }
+                point {
+                  x: 458112.6298840621
+                  y: 4401155.1727530779
+                }
+                point {
+                  x: 458112.69372630509
+                  y: 4401155.3341165083
+                }
+                point {
+                  x: 458112.78065779124
+                  y: 4401155.5667202482
+                }
+                point {
+                  x: 458112.87271708087
+                  y: 4401155.8128367383
+                }
+                point {
+                  x: 458112.9805820217
+                  y: 4401156.0983792655
+                }
+                point {
+                  x: 458113.12388542661
+                  y: 4401156.4734079922
+                }
+                point {
+                  x: 458113.13694961631
+                  y: 4401156.4970884658
+                }
+                point {
+                  x: 458113.22388107871
+                  y: 4401156.7296922132
+                }
+                point {
+                  x: 458113.31081253587
+                  y: 4401156.9622959578
+                }
+                point {
+                  x: 458113.42077264097
+                  y: 4401157.255041386
+                }
+                point {
+                  x: 458113.5313513747
+                  y: 4401157.535574575
+                }
+                point {
+                  x: 458113.58011221437
+                  y: 4401157.648961816
+                }
+                point {
+                  x: 458113.67217145453
+                  y: 4401157.8950783135
+                }
+                point {
+                  x: 458113.803064987
+                  y: 4401158.2407625336
+                }
+                point {
+                  x: 458113.86160381575
+                  y: 4401158.3878372582
+                }
+                point {
+                  x: 458113.95949307852
+                  y: 4401158.6505703833
+                }
+                point {
+                  x: 458114.02333526575
+                  y: 4401158.8119338257
+                }
+                point {
+                  x: 458114.13329531834
+                  y: 4401159.1046792632
+                }
+                point {
+                  x: 458114.22016614355
+                  y: 4401159.3261843864
+                }
+                point {
+                  x: 458114.30703695945
+                  y: 4401159.5476895114
+                }
+                point {
+                  x: 458114.3708791323
+                  y: 4401159.7090529548
+                }
+                point {
+                  x: 458114.48083916155
+                  y: 4401160.0017983969
+                }
+                point {
+                  x: 458114.56770996482
+                  y: 4401160.2233035257
+                }
+                point {
+                  x: 458114.654580761
+                  y: 4401160.4448086526
+                }
+                point {
+                  x: 458114.69816082326
+                  y: 4401160.5506768823
+                }
+                point {
+                  x: 458114.82844350318
+                  y: 4401160.9100161837
+                }
+                point {
+                  x: 458114.9153142866
+                  y: 4401161.1315213135
+                }
+                point {
+                  x: 458115.00218506507
+                  y: 4401161.3530264478
+                }
+                point {
+                  x: 458115.04158865538
+                  y: 4401161.4470415851
+                }
+                point {
+                  x: 458115.167360688
+                  y: 4401161.7960834717
+                }
+                point {
+                  x: 458115.20676427404
+                  y: 4401161.890098609
+                }
+                point {
+                  x: 458115.35876157018
+                  y: 4401162.3042592695
+                }
+                point {
+                  x: 458115.41934646957
+                  y: 4401162.4495470021
+                }
+                point {
+                  x: 458115.48084126756
+                  y: 4401162.6045968579
+                }
+                point {
+                  x: 458115.58446146682
+                  y: 4401162.8815054
+                }
+                point {
+                  x: 458115.64595626038
+                  y: 4401163.0365552595
+                }
+                point {
+                  x: 458115.77580171684
+                  y: 4401163.3785825754
+                }
+                point {
+                  x: 458115.811010654
+                  y: 4401163.4574150285
+                }
+                point {
+                  x: 458115.94085609849
+                  y: 4401163.7994423471
+                }
+                point {
+                  x: 458115.97606503218
+                  y: 4401163.8782748
+                }
+                point {
+                  x: 458116.05430925731
+                  y: 4401164.0887280665
+                }
+                point {
+                  x: 458116.18415467854
+                  y: 4401164.43075539
+                }
+                point {
+                  x: 458116.24473954615
+                  y: 4401164.57604313
+                }
+                point {
+                  x: 458116.29754724121
+                  y: 4401164.7089424785
+                }
+                point {
+                  x: 458116.40116738388
+                  y: 4401164.9858510317
+                }
+                point {
+                  x: 458116.45397507568
+                  y: 4401165.1187503813
+                }
+                point {
+                  x: 458116.55759520736
+                  y: 4401165.3956589373
+                }
+                point {
+                  x: 458116.692029833
+                  y: 4401165.7310018418
+                }
+                point {
+                  x: 458116.72252834972
+                  y: 4401165.7943214588
+                }
+                point {
+                  x: 458116.80071195844
+                  y: 4401165.9936760971
+                }
+                point {
+                  x: 458116.87889556092
+                  y: 4401166.1930307364
+                }
+                point {
+                  x: 458116.95707916166
+                  y: 4401166.3923853757
+                }
+                point {
+                  x: 458117.03526275838
+                  y: 4401166.5917400168
+                }
+                point {
+                  x: 458117.14279712195
+                  y: 4401166.8638546625
+                }
+                point {
+                  x: 458117.19156936096
+                  y: 4401166.9793506684
+                }
+                point {
+                  x: 458117.28729112464
+                  y: 4401167.2216735715
+                }
+                point {
+                  x: 458117.37722671672
+                  y: 4401167.4397213245
+                }
+                point {
+                  x: 458117.37339920452
+                  y: 4401167.4133266779
+                }
+                point {
+                  x: 458117.52496737725
+                  y: 4401167.8273787349
+                }
+                point {
+                  x: 458117.60309036681
+                  y: 4401168.0156347472
+                }
+                point {
+                  x: 458117.65186259407
+                  y: 4401168.1311307549
+                }
+                point {
+                  x: 458117.75070985325
+                  y: 4401168.3810948925
+                }
+                point {
+                  x: 458117.77115013619
+                  y: 4401168.42216049
+                }
+                point {
+                  x: 458117.89838989964
+                  y: 4401168.757653675
+                }
+                point {
+                  x: 458117.98050528707
+                  y: 4401168.9554330111
+                }
+                point {
+                  x: 458118.0165980265
+                  y: 4401169.0392551851
+                }
+                point {
+                  x: 458118.11544526269
+                  y: 4401169.2892193282
+                }
+                point {
+                  x: 458118.1642174744
+                  y: 4401169.40471534
+                }
+                point {
+                  x: 458118.23371395131
+                  y: 4401169.5819194755
+                }
+                point {
+                  x: 458118.28356555564
+                  y: 4401169.706843718
+                }
+                point {
+                  x: 458118.44490543322
+                  y: 4401170.1220633453
+                }
+                point {
+                  x: 458118.4311849763
+                  y: 4401170.0723038763
+                }
+                point {
+                  x: 458118.52907393815
+                  y: 4401170.3350370647
+                }
+                point {
+                  x: 458118.62792114384
+                  y: 4401170.5850012135
+                }
+                point {
+                  x: 458118.644709219
+                  y: 4401170.6160976784
+                }
+                point {
+                  x: 458118.76691404823
+                  y: 4401170.9394094953
+                }
+                point {
+                  x: 458118.78735432134
+                  y: 4401170.980475096
+                }
+                point {
+                  x: 458118.9145939998
+                  y: 4401171.3159682984
+                }
+                point {
+                  x: 458118.98959139979
+                  y: 4401171.4965830976
+                }
+                point {
+                  x: 458119.02184424852
+                  y: 4401171.5674404455
+                }
+                point {
+                  x: 458119.11973317194
+                  y: 4401171.8301736414
+                }
+                point {
+                  x: 458119.19791665947
+                  y: 4401172.0295283049
+                }
+                point {
+                  x: 458119.27610014303
+                  y: 4401172.2288829694
+                }
+                point {
+                  x: 458119.35428362264
+                  y: 4401172.4282376338
+                }
+                point {
+                  x: 458119.40413519094
+                  y: 4401172.5531618837
+                }
+                point {
+                  x: 458119.52824929287
+                  y: 4401172.8810138693
+                }
+                point {
+                  x: 458119.56345815177
+                  y: 4401172.9598463411
+                }
+                point {
+                  x: 458119.66707807238
+                  y: 4401173.236754939
+                }
+                point {
+                  x: 458119.75394858042
+                  y: 4401173.4582601283
+                }
+                point {
+                  x: 458119.80203910312
+                  y: 4401173.5744258082
+                }
+                point {
+                  x: 458119.92781073204
+                  y: 4401173.9234677777
+                }
+                point {
+                  x: 458119.99165267218
+                  y: 4401174.08483127
+                }
+                point {
+                  x: 458120.10161228816
+                  y: 4401174.3775767963
+                }
+                point {
+                  x: 458120.21219054144
+                  y: 4401174.6581100868
+                }
+                point {
+                  x: 458120.25860385917
+                  y: 4401174.765183771
+                }
+                point {
+                  x: 458120.33919517946
+                  y: 4401174.9819506807
+                }
+                point {
+                  x: 458120.42612622364
+                  y: 4401175.2145545119
+                }
+                point {
+                  x: 458120.51305726269
+                  y: 4401175.447158346
+                }
+                point {
+                  x: 458120.64464092336
+                  y: 4401175.793837822
+                }
+                point {
+                  x: 458120.70182495163
+                  y: 4401175.9281561831
+                }
+                point {
+                  x: 458120.78441548086
+                  y: 4401176.1502396911
+                }
+                point {
+                  x: 458120.87803431007
+                  y: 4401176.3996774536
+                }
+                point {
+                  x: 458120.96496532258
+                  y: 4401176.6322812922
+                }
+                point {
+                  x: 458121.07492486871
+                  y: 4401176.9250268321
+                }
+                point {
+                  x: 458121.08830074628
+                  y: 4401176.9430451449
+                }
+                point {
+                  x: 458121.23147335241
+                  y: 4401177.3570321053
+                }
+                point {
+                  x: 458121.31834377063
+                  y: 4401177.5785373133
+                }
+                point {
+                  x: 458121.38218565244
+                  y: 4401177.73990082
+                }
+                point {
+                  x: 458121.44467818778
+                  y: 4401177.9051563255
+                }
+                point {
+                  x: 458121.57044967439
+                  y: 4401178.254198323
+                }
+                point {
+                  x: 458121.65732007526
+                  y: 4401178.4757035337
+                }
+                point {
+                  x: 458121.68600209738
+                  y: 4401178.535814384
+                }
+                point {
+                  x: 458121.83124257333
+                  y: 4401178.9520098623
+                }
+                point {
+                  x: 458121.87064599106
+                  y: 4401179.046025035
+                }
+                point {
+                  x: 458121.99641744042
+                  y: 4401179.39506704
+                }
+                point {
+                  x: 458122.044884448
+                  y: 4401179.5174461
+                }
+                point {
+                  x: 458122.09465632716
+                  y: 4401179.6434806986
+                }
+                point {
+                  x: 458122.21377508016
+                  y: 4401179.9821259854
+                }
+                point {
+                  x: 458122.25317849027
+                  y: 4401180.0761411591
+                }
+                point {
+                  x: 458122.33913905459
+                  y: 4401180.3192943269
+                }
+                point {
+                  x: 458122.44925259968
+                  y: 4401180.6245808788
+                }
+                point {
+                  x: 458122.50540537
+                  y: 4401180.7739994712
+                }
+                point {
+                  x: 458122.58370982093
+                  y: 4401180.9955514409
+                }
+                point {
+                  x: 458122.68410537724
+                  y: 4401181.27813815
+                }
+                point {
+                  x: 458122.72885874461
+                  y: 4401181.3949879995
+                }
+                point {
+                  x: 458122.82327961805
+                  y: 4401181.665842413
+                }
+                point {
+                  x: 458122.87943237595
+                  y: 4401181.815261011
+                }
+                point {
+                  x: 458122.97982791113
+                  y: 4401182.0978477243
+                }
+                point {
+                  x: 458123.05807176692
+                  y: 4401182.3083010651
+                }
+                point {
+                  x: 458123.11422451364
+                  y: 4401182.4577196632
+                }
+                point {
+                  x: 458123.21896657586
+                  y: 4401182.7519365745
+                }
+                point {
+                  x: 458123.31023793528
+                  y: 4401182.9950607689
+                }
+                point {
+                  x: 458123.38848177332
+                  y: 4401183.2055141116
+                }
+                point {
+                  x: 458123.42522609205
+                  y: 4401183.298877866
+                }
+                point {
+                  x: 458123.57046638575
+                  y: 4401183.7150733806
+                }
+                point {
+                  x: 458123.55778116052
+                  y: 4401183.6666401271
+                }
+                point {
+                  x: 458123.67557770119
+                  y: 4401184.0141718257
+                }
+                point {
+                  x: 458123.75382151932
+                  y: 4401184.224625173
+                }
+                point {
+                  x: 458123.78394672787
+                  y: 4401184.2980469139
+                }
+                point {
+                  x: 458123.92711905821
+                  y: 4401184.7120339265
+                }
+                point {
+                  x: 458123.98427302885
+                  y: 4401184.8565635215
+                }
+                point {
+                  x: 458124.04832063644
+                  y: 4401185.0242523383
+                }
+                point {
+                  x: 458124.14516167884
+                  y: 4401185.2990891887
+                }
+                point {
+                  x: 458124.22340546933
+                  y: 4401185.5095425406
+                }
+                point {
+                  x: 458124.26014976733
+                  y: 4401185.6029062988
+                }
+                point {
+                  x: 458124.37926833681
+                  y: 4401185.9415516229
+                }
+                point {
+                  x: 458124.39264419116
+                  y: 4401185.9595699413
+                }
+                point {
+                  x: 458124.535816457
+                  y: 4401186.3735569669
+                }
+                point {
+                  x: 458124.61399966211
+                  y: 4401186.5729116872
+                }
+                point {
+                  x: 458124.63958337693
+                  y: 4401186.6303757047
+                }
+                point {
+                  x: 458124.7618001714
+                  y: 4401186.9716678774
+                }
+                point {
+                  x: 458124.78738388163
+                  y: 4401187.0291318949
+                }
+                point {
+                  x: 458124.90960066346
+                  y: 4401187.3704240723
+                }
+                point {
+                  x: 458124.93518437346
+                  y: 4401187.4278880889
+                }
+                point {
+                  x: 458125.05740114272
+                  y: 4401187.7691802671
+                }
+                point {
+                  x: 458125.10725252284
+                  y: 4401187.8941045534
+                }
+                point {
+                  x: 458125.15254157141
+                  y: 4401188.014947122
+                }
+                point {
+                  x: 458125.30410893646
+                  y: 4401188.42899934
+                }
+                point {
+                  x: 458125.07679091848
+                  y: 4401187.0840463154
+                }
+              }
+            }
+          }
+          type: LEFT_BOUNDARY
+        }
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 458113.32083850133
+                  y: 4401139.7788238022
+                }
+                point {
+                  x: 458113.38164823869
+                  y: 4401139.9338773787
+                }
+                point {
+                  x: 458113.48007677507
+                  y: 4401140.1855085865
+                }
+                point {
+                  x: 458113.57927054685
+                  y: 4401140.4517862527
+                }
+                point {
+                  x: 458113.63375601871
+                  y: 4401140.6095381044
+                }
+                point {
+                  x: 458113.73218453635
+                  y: 4401140.8611693149
+                }
+                point {
+                  x: 458113.831378291
+                  y: 4401141.1274469839
+                }
+                point {
+                  x: 458113.88586375315
+                  y: 4401141.2851988366
+                }
+                point {
+                  x: 458113.99116173
+                  y: 4401141.555549806
+                }
+                point {
+                  x: 458114.10092077689
+                  y: 4401141.8585073818
+                }
+                point {
+                  x: 458114.13873486943
+                  y: 4401141.9751730757
+                }
+                point {
+                  x: 458114.24866206967
+                  y: 4401142.2461647186
+                }
+                point {
+                  x: 458114.32696713222
+                  y: 4401142.4677165961
+                }
+                point {
+                  x: 458114.39414119296
+                  y: 4401142.6588070765
+                }
+                point {
+                  x: 458114.48351666168
+                  y: 4401142.8997217175
+                }
+                point {
+                  x: 458114.55069071491
+                  y: 4401143.0908121988
+                }
+                point {
+                  x: 458114.64006617607
+                  y: 4401143.3317268416
+                }
+                point {
+                  x: 458114.70724022185
+                  y: 4401143.5228173267
+                }
+                point {
+                  x: 458114.78548467671
+                  y: 4401143.7332705744
+                }
+                point {
+                  x: 458114.86259799
+                  y: 4401143.9405112956
+                }
+                point {
+                  x: 458114.95066067443
+                  y: 4401144.1763275843
+                }
+                point {
+                  x: 458115.01621650608
+                  y: 4401144.3534422079
+                }
+                point {
+                  x: 458115.13119100389
+                  y: 4401144.654595498
+                }
+                point {
+                  x: 458115.17676747643
+                  y: 4401144.7966354582
+                }
+                point {
+                  x: 458115.24232329783
+                  y: 4401144.9737500837
+                }
+                point {
+                  x: 458115.3572977779
+                  y: 4401145.2749033766
+                }
+                point {
+                  x: 458115.39018563577
+                  y: 4401145.3836047119
+                }
+                point {
+                  x: 458115.49471256929
+                  y: 4401145.65395991
+                }
+                point {
+                  x: 458115.53798737732
+                  y: 4401145.7823607074
+                }
+                point {
+                  x: 458115.65296183422
+                  y: 4401146.0835140068
+                }
+                point {
+                  x: 458115.68584968249
+                  y: 4401146.1922153421
+                }
+                point {
+                  x: 458115.79037659941
+                  y: 4401146.4625705434
+                }
+                point {
+                  x: 458115.85999448365
+                  y: 4401146.6619719239
+                }
+                point {
+                  x: 458115.92961236654
+                  y: 4401146.8613733035
+                }
+                point {
+                  x: 458115.95821203443
+                  y: 4401146.9534496
+                }
+                point {
+                  x: 458116.07735347492
+                  y: 4401147.2490306757
+                }
+                point {
+                  x: 458116.13479427743
+                  y: 4401147.4146466805
+                }
+                point {
+                  x: 458116.20435156883
+                  y: 4401147.6029494284
+                }
+                point {
+                  x: 458116.2860859232
+                  y: 4401147.8250375567
+                }
+                point {
+                  x: 458116.34352671716
+                  y: 4401147.9906535614
+                }
+                point {
+                  x: 458116.38424286607
+                  y: 4401148.1054166034
+                }
+                point {
+                  x: 458116.49120720854
+                  y: 4401148.3672123086
+                }
+                point {
+                  x: 458116.56076448079
+                  y: 4401148.55551506
+                }
+                point {
+                  x: 458116.63032175187
+                  y: 4401148.7438178118
+                }
+                point {
+                  x: 458116.69987901964
+                  y: 4401148.9321205672
+                }
+                point {
+                  x: 458116.76943628181
+                  y: 4401149.12042332
+                }
+                point {
+                  x: 458116.83899354294
+                  y: 4401149.3087260732
+                }
+                point {
+                  x: 458116.92072786373
+                  y: 4401149.530814209
+                }
+                point {
+                  x: 458116.97816862969
+                  y: 4401149.6964302184
+                }
+                point {
+                  x: 458117.03355987667
+                  y: 4401149.8475177716
+                }
+                point {
+                  x: 458117.13253301952
+                  y: 4401150.1048065266
+                }
+                point {
+                  x: 458117.16398728464
+                  y: 4401150.2019727705
+                }
+                point {
+                  x: 458117.24617254135
+                  y: 4401150.4125155238
+                }
+                point {
+                  x: 458117.31172826927
+                  y: 4401150.5896301679
+                }
+                point {
+                  x: 458117.39019382419
+                  y: 4401150.7935338477
+                }
+                point {
+                  x: 458117.44763457321
+                  y: 4401150.9591498608
+                }
+                point {
+                  x: 458117.50302580005
+                  y: 4401151.1102374187
+                }
+                point {
+                  x: 458117.60111506004
+                  y: 4401151.3625364685
+                }
+                point {
+                  x: 458117.67688856949
+                  y: 4401151.5754450047
+                }
+                point {
+                  x: 458117.76776087767
+                  y: 4401151.8081382792
+                }
+                point {
+                  x: 458117.85174348834
+                  y: 4401152.0340987919
+                }
+                point {
+                  x: 458117.87238699204
+                  y: 4401152.0966952723
+                }
+                point {
+                  x: 458117.98499843536
+                  y: 4401152.3729998218
+                }
+                point {
+                  x: 458118.07437368343
+                  y: 4401152.6139145056
+                }
+                point {
+                  x: 458118.11574634037
+                  y: 4401152.7391070006
+                }
+                point {
+                  x: 458118.21566918108
+                  y: 4401152.9820729215
+                }
+                point {
+                  x: 458118.31409739889
+                  y: 4401153.2337041944
+                }
+                point {
+                  x: 458118.40102873649
+                  y: 4401153.4663079977
+                }
+                point {
+                  x: 458118.48543900257
+                  y: 4401153.6921551926
+                }
+                point {
+                  x: 458118.60095262539
+                  y: 4401153.9979671566
+                }
+                point {
+                  x: 458118.65965519642
+                  y: 4401154.1593586868
+                }
+                point {
+                  x: 458118.75731996942
+                  y: 4401154.3966764668
+                }
+                point {
+                  x: 458118.84425128315
+                  y: 4401154.6292802747
+                }
+                point {
+                  x: 458118.93118259177
+                  y: 4401154.8618840845
+                }
+                point {
+                  x: 458119.00655645336
+                  y: 4401155.0643617865
+                }
+                point {
+                  x: 458119.08161639387
+                  y: 4401155.2564081782
+                }
+                point {
+                  x: 458119.20048183488
+                  y: 4401155.5485501327
+                }
+                point {
+                  x: 458119.28489205556
+                  y: 4401155.7743973359
+                }
+                point {
+                  x: 458119.38884817762
+                  y: 4401156.050083206
+                }
+                point {
+                  x: 458119.48988486407
+                  y: 4401156.3088035947
+                }
+                point {
+                  x: 458119.54527601396
+                  y: 4401156.4598911665
+                }
+                point {
+                  x: 458119.64370414545
+                  y: 4401156.7115224572
+                }
+                point {
+                  x: 458119.71907797095
+                  y: 4401156.9140001675
+                }
+                point {
+                  x: 458119.80594865332
+                  y: 4401157.1355053531
+                }
+                point {
+                  x: 458119.8928193351
+                  y: 4401157.35701054
+                }
+                point {
+                  x: 458119.99124744209
+                  y: 4401157.608641834
+                }
+                point {
+                  x: 458120.06662124995
+                  y: 4401157.811119548
+                }
+                point {
+                  x: 458120.15349191474
+                  y: 4401158.0326247374
+                }
+                point {
+                  x: 458120.24036257464
+                  y: 4401158.2541299276
+                }
+                point {
+                  x: 458120.34896482364
+                  y: 4401158.5335641028
+                }
+                point {
+                  x: 458120.41422502371
+                  y: 4401158.71933758
+                }
+                point {
+                  x: 458120.50109566643
+                  y: 4401158.9408427728
+                }
+                point {
+                  x: 458120.58796630643
+                  y: 4401159.1623479677
+                }
+                point {
+                  x: 458120.69865645486
+                  y: 4401159.4476532033
+                }
+                point {
+                  x: 458120.75314165221
+                  y: 4401159.6054051062
+                }
+                point {
+                  x: 458120.86383178836
+                  y: 4401159.8907103464
+                }
+                point {
+                  x: 458120.90520436043
+                  y: 4401160.0159028573
+                }
+                point {
+                  x: 458121.005127022
+                  y: 4401160.2588688163
+                }
+                point {
+                  x: 458121.10477185214
+                  y: 4401160.5137121845
+                }
+                point {
+                  x: 458121.17024175019
+                  y: 4401160.6908273315
+                }
+                point {
+                  x: 458121.26988656947
+                  y: 4401160.9456707034
+                }
+                point {
+                  x: 458121.32224384486
+                  y: 4401161.0902264556
+                }
+                point {
+                  x: 458121.43494069594
+                  y: 4401161.3665305907
+                }
+                point {
+                  x: 458121.48729796545
+                  y: 4401161.5110863438
+                }
+                point {
+                  x: 458121.59999480686
+                  y: 4401161.7873904807
+                }
+                point {
+                  x: 458121.67823889724
+                  y: 4401161.9978438
+                }
+                point {
+                  x: 458121.73059615807
+                  y: 4401162.1423995579
+                }
+                point {
+                  x: 458121.83051876689
+                  y: 4401162.3853655271
+                }
+                point {
+                  x: 458121.9214764873
+                  y: 4401162.6180583872
+                }
+                point {
+                  x: 458121.98694634938
+                  y: 4401162.79517354
+                }
+                point {
+                  x: 458122.07790405821
+                  y: 4401163.0278664008
+                }
+                point {
+                  x: 458122.14337391336
+                  y: 4401163.2049815552
+                }
+                point {
+                  x: 458122.19351820671
+                  y: 4401163.3364526145
+                }
+                point {
+                  x: 458122.30830680887
+                  y: 4401163.6036441922
+                }
+                point {
+                  x: 458122.38649029075
+                  y: 4401163.8029988864
+                }
+                point {
+                  x: 458122.46467377082
+                  y: 4401164.0023535825
+                }
+                point {
+                  x: 458122.54285724694
+                  y: 4401164.2017082777
+                }
+                point {
+                  x: 458122.62104071904
+                  y: 4401164.4010629738
+                }
+                point {
+                  x: 458122.68454912707
+                  y: 4401164.5640931521
+                }
+                point {
+                  x: 458122.77734708047
+                  y: 4401164.7886737352
+                }
+                point {
+                  x: 458122.8337308896
+                  y: 4401164.9333185125
+                }
+                point {
+                  x: 458122.91897837067
+                  y: 4401165.13995998
+                }
+                point {
+                  x: 458123.0381192725
+                  y: 4401165.4355411688
+                }
+                point {
+                  x: 458123.06671878975
+                  y: 4401165.5276174936
+                }
+                point {
+                  x: 458123.14484166715
+                  y: 4401165.71587356
+                }
+                point {
+                  x: 458123.23763959593
+                  y: 4401165.9404541478
+                }
+                point {
+                  x: 458123.29246092826
+                  y: 4401166.0813338095
+                }
+                point {
+                  x: 458123.39942479483
+                  y: 4401166.3431296144
+                }
+                point {
+                  x: 458123.44014074554
+                  y: 4401166.4578926954
+                }
+                point {
+                  x: 458123.51626739954
+                  y: 4401166.641387105
+                }
+                point {
+                  x: 458123.60237446526
+                  y: 4401166.8485788368
+                }
+                point {
+                  x: 458123.65719578473
+                  y: 4401166.9894584995
+                }
+                point {
+                  x: 458123.74999368377
+                  y: 4401167.2140390938
+                }
+                point {
+                  x: 458123.81949004764
+                  y: 4401167.39124328
+                }
+                point {
+                  x: 458123.91183939495
+                  y: 4401167.627813207
+                }
+                point {
+                  x: 458123.93554810714
+                  y: 4401167.7027128274
+                }
+                point {
+                  x: 458124.05945858645
+                  y: 4401167.9932734715
+                }
+                point {
+                  x: 458124.11484956811
+                  y: 4401168.1443610769
+                }
+                point {
+                  x: 458124.16967086925
+                  y: 4401168.2852407452
+                }
+                point {
+                  x: 458124.27854703489
+                  y: 4401168.55213165
+                }
+                point {
+                  x: 458124.30866355821
+                  y: 4401168.6396491248
+                }
+                point {
+                  x: 458124.41562735592
+                  y: 4401168.9014449446
+                }
+                point {
+                  x: 458124.45634327852
+                  y: 4401169.0162080312
+                }
+                point {
+                  x: 458124.53602854221
+                  y: 4401169.2082292335
+                }
+                point {
+                  x: 458124.65011690871
+                  y: 4401169.4884104608
+                }
+                point {
+                  x: 458124.70550786622
+                  y: 4401169.6394980717
+                }
+                point {
+                  x: 458124.78369122912
+                  y: 4401169.83885279
+                }
+                point {
+                  x: 458124.86187458807
+                  y: 4401170.0382075105
+                }
+                point {
+                  x: 458124.94005794084
+                  y: 4401170.2375622308
+                }
+                point {
+                  x: 458125.0324072208
+                  y: 4401170.4741321718
+                }
+                point {
+                  x: 458125.07468558231
+                  y: 4401170.5926603833
+                }
+                point {
+                  x: 458125.18738216668
+                  y: 4401170.8689645752
+                }
+                point {
+                  x: 458125.25285188406
+                  y: 4401171.0460797576
+                }
+                point {
+                  x: 458125.33972225792
+                  y: 4401171.2675850065
+                }
+                point {
+                  x: 458125.4590990966
+                  y: 4401171.5750408405
+                }
+                point {
+                  x: 458125.5135841142
+                  y: 4401171.7327927779
+                }
+                point {
+                  x: 458125.61201186257
+                  y: 4401171.9844241487
+                }
+                point {
+                  x: 458125.68738538743
+                  y: 4401172.1869019205
+                }
+                point {
+                  x: 458125.76244500047
+                  y: 4401172.3789483784
+                }
+                point {
+                  x: 458125.88252672221
+                  y: 4401172.6743025007
+                }
+                point {
+                  x: 458125.95955379994
+                  y: 4401172.8815438058
+                }
+                point {
+                  x: 458126.04648469551
+                  y: 4401173.1141476994
+                }
+                point {
+                  x: 458126.13341558591
+                  y: 4401173.3467515931
+                }
+                point {
+                  x: 458126.19802019239
+                  y: 4401173.52231765
+                }
+                point {
+                  x: 458126.325747075
+                  y: 4401173.8372752275
+                }
+                point {
+                  x: 458126.40173168347
+                  y: 4401174.0418584757
+                }
+                point {
+                  x: 458126.4983920271
+                  y: 4401174.2992709624
+                }
+                point {
+                  x: 458126.585322891
+                  y: 4401174.5318748616
+                }
+                point {
+                  x: 458126.66069636634
+                  y: 4401174.7343526436
+                }
+                point {
+                  x: 458126.78435700067
+                  y: 4401175.0576566411
+                }
+                point {
+                  x: 458126.81724457641
+                  y: 4401175.1663580267
+                }
+                point {
+                  x: 458126.90411485831
+                  y: 4401175.3878632961
+                }
+                point {
+                  x: 458127.00254251406
+                  y: 4401175.6394946845
+                }
+                point {
+                  x: 458127.10173537931
+                  y: 4401175.9057725333
+                }
+                point {
+                  x: 458127.15622033394
+                  y: 4401176.0635244846
+                }
+                point {
+                  x: 458127.2430905964
+                  y: 4401176.2850297559
+                }
+                point {
+                  x: 458127.3721286573
+                  y: 4401176.6205132827
+                }
+                point {
+                  x: 458127.417012791
+                  y: 4401176.7613362074
+                }
+                point {
+                  x: 458127.52770244272
+                  y: 4401177.0466415463
+                }
+                point {
+                  x: 458127.58218738093
+                  y: 4401177.2043935014
+                }
+                point {
+                  x: 458127.66228416289
+                  y: 4401177.4090653136
+                }
+                point {
+                  x: 458127.78078215907
+                  y: 4401177.7281798916
+                }
+                point {
+                  x: 458127.79954465013
+                  y: 4401177.7914526006
+                }
+                point {
+                  x: 458127.91023427341
+                  y: 4401178.0767579461
+                }
+                point {
+                  x: 458127.98462519341
+                  y: 4401178.2875653254
+                }
+                point {
+                  x: 458128.07317171613
+                  y: 4401178.5337011628
+                }
+                point {
+                  x: 458128.16246070067
+                  y: 4401178.774616438
+                }
+                point {
+                  x: 458128.24076500471
+                  y: 4401178.9961684626
+                }
+                point {
+                  x: 458128.30802407308
+                  y: 4401179.1872586021
+                }
+                point {
+                  x: 458128.4029699011
+                  y: 4401179.4444584912
+                }
+                point {
+                  x: 458128.44719806651
+                  y: 4401179.5749629661
+                }
+                point {
+                  x: 458128.53648702556
+                  y: 4401179.8158782441
+                }
+                point {
+                  x: 458128.60374607972
+                  y: 4401180.0069683874
+                }
+                point {
+                  x: 458128.68198980077
+                  y: 4401180.2174217841
+                }
+                point {
+                  x: 458128.77127874532
+                  y: 4401180.4583370639
+                }
+                point {
+                  x: 458128.83636421739
+                  y: 4401180.6435566191
+                }
+                point {
+                  x: 458128.93415552855
+                  y: 4401180.9041816676
+                }
+                point {
+                  x: 458129.01239923178
+                  y: 4401181.1146350661
+                }
+                point {
+                  x: 458129.11134951719
+                  y: 4401181.3835780146
+                }
+                point {
+                  x: 458129.1562335926
+                  y: 4401181.5244009513
+                }
+                point {
+                  x: 458129.2538329754
+                  y: 4401181.7812534031
+                }
+                point {
+                  x: 458129.29949463834
+                  y: 4401181.9232929843
+                }
+                point {
+                  x: 458129.37773831951
+                  y: 4401182.1337463865
+                }
+                point {
+                  x: 458129.47999812447
+                  y: 4401182.41266035
+                }
+                point {
+                  x: 458129.51288563234
+                  y: 4401182.52136175
+                }
+                point {
+                  x: 458129.60166932177
+                  y: 4401182.7481841119
+                }
+                point {
+                  x: 458129.71302927576
+                  y: 4401183.0464716135
+                }
+                point {
+                  x: 458129.76907778886
+                  y: 4401183.2082106806
+                }
+                point {
+                  x: 458129.84732144681
+                  y: 4401183.4186640885
+                }
+                point {
+                  x: 458129.94627167459
+                  y: 4401183.6876070481
+                }
+                point {
+                  x: 458129.96503413405
+                  y: 4401183.7508797636
+                }
+                point {
+                  x: 458130.08869449032
+                  y: 4401184.074183817
+                }
+                point {
+                  x: 458130.12158198288
+                  y: 4401184.1828852193
+                }
+                point {
+                  x: 458130.1997650633
+                  y: 4401184.3822399965
+                }
+                point {
+                  x: 458130.30429096718
+                  y: 4401184.6525954045
+                }
+                point {
+                  x: 458130.34756531881
+                  y: 4401184.78099629
+                }
+                point {
+                  x: 458130.45209121442
+                  y: 4401185.0513517009
+                }
+                point {
+                  x: 458130.49536555924
+                  y: 4401185.1797525873
+                }
+                point {
+                  x: 458130.59989144449
+                  y: 4401185.450108
+                }
+                point {
+                  x: 458130.64316578687
+                  y: 4401185.5785088874
+                }
+                point {
+                  x: 458130.73551471438
+                  y: 4401185.8150788993
+                }
+                point {
+                  x: 458130.81724826223
+                  y: 4401186.0371671887
+                }
+                point {
+                  x: 458130.84584761364
+                  y: 4401186.1292435415
+                }
+                point {
+                  x: 458131.07677520486
+                  y: 4401187.0840483988
+                }
+              }
+            }
+          }
+          type: RIGHT_BOUNDARY
+        }
+      }
+    }
+  }
+}

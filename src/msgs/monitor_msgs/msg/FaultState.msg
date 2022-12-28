@@ -1,0 +1,11 @@
+common_msgs/Header  header
+int8    system_state
+int8    real_shift_position_state
+int8    forward_crash_sw_state
+int8    emergency_stop_state
+int8    remotedrv_ready_state
+int8    autodrv_ready_state
+int8    remotedrv_state_indi
+int8    autodrv_state_indi
+int8    main_brush_run_state
+int8    dust_run_state

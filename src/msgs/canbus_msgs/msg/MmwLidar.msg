@@ -1,0 +1,9 @@
+std_msgs/Header header
+uint8   object_num
+int32   object_meas_counter
+uint8   object_id
+float32 object_x
+float32 object_y
+float32 object_vx
+float32 object_vy
+float32 object_rcs

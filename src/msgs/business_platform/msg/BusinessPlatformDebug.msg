@@ -1,0 +1,9 @@
+business_platform_api_msgs/AutomaticTaskInput 	task_input
+business_platform_api_msgs/AutomaticTaskStatus 	task_status
+business_platform_api_msgs/AutomaticBehaviorLimit 	limit_recv
+business_platform_api_msgs/MapCollectionCommand 	map_collection_cmd
+business_platform_api_msgs/MapCollectionStatus 	map_collection_status
+business_platform_api_msgs/MapCollectionInfoList 	map_list
+business_platform_api_msgs/MapLoadCollection  		defualt_map_cmd
+business_platform_api_msgs/BagListInfo 	bag_list_info
+business_platform_api_msgs/BagDeleteCommand 	bag_delete_cmd

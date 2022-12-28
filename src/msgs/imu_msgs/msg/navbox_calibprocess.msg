@@ -1,0 +1,5 @@
+bool update
+float32 calibration_time
+float32 gnss_baseline
+uint8 baseline_calib_result
+uint8 odom_calib_result

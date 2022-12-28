@@ -1,0 +1,13 @@
+std_msgs/Header header
+uint8 dFrameCnt
+float64 angular_velocity_rl
+float64 angular_velocity_rr
+float64 velocity_rl
+float64 velocity_rr
+float64 velocity
+float64 yaw_rate
+float64 yaw
+bool is_yaw_valid
+float64 xg
+float64 yg
+int32 module_fault_level

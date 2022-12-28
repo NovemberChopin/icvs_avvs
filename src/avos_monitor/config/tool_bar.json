@@ -1,0 +1,12 @@
+{
+    "data_select":1,
+    "task_manage":1,
+    "calibration":0,
+    "monitor":1,
+    "record_bag":0,
+    "runnablity":1,
+    "video_show":0,
+    "vehicle_setting":0,
+    "map_aquisition":0,
+    "black_box":0
+}

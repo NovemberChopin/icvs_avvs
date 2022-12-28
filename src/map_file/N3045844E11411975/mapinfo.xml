@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Map xmlns="http://www.idriverplus.com">
+	<header name="N3045844E11411975" version="1.6" describe="robotaxi--0118" date="2021-01-18 09:34:52">
+		<move_origin zone="50" multpcd_enable="1">
+			<centerPoint x="223435.819256989" y="3373111.805783669" z="27.935194016"/>
+		</move_origin>
+		<boundary ldx="30.432432878" ldy="114.074636315" length="9440.020896625" width="8494.471723357"/>
+	</header>
+</Map>
+

@@ -1,0 +1,9 @@
+std_msgs/Header 	header
+uint32 	command_seq
+uint32 	command_id
+uint32 	sub_common_id
+uint8[] 	invoke_param
+---
+uint32 	command_seq
+int32 	result
+uint8[] 	result_param

@@ -1,0 +1,9 @@
+string currentroadid
+string currentlaneid
+LaneLists[] currentlanelists
+LaneLists[] leftlanelists
+LaneLists[] rightlanelists
+LaneLists revlanelists
+Point startpoint
+Point endpoint
+float32 dis2endpoint

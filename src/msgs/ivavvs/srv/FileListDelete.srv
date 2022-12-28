@@ -1,0 +1,9 @@
+std_msgs/Header header
+uint8 msg_seq
+uint8 file_module
+string file_path
+fileinfo[] file_info
+---
+uint8 msg_seq
+int8  result
+uint8 file_module

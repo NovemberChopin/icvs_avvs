@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<launch>
+	<node name="proto_map_generator_local"  pkg="map_loader"  type="proto_map_generator" output="screen"/> 
+	<node name="png2bin_local"  pkg="map_loader"  type="png2bin" output="screen"/> 
+	<node name="creat_shared_memory_local"  pkg="map_loader"  type="creat_shared_memory" output="screen"/> 
+	
+	<!-- <node name="rvizinterface" pkg="rvizinterface" type="rvizinterface" output = "screen"/> -->
+	
+	<node name="avos_monitor" pkg="avos_monitor" type="avos_monitor" output = "screen"/>
+		<param type="string" value="$(find avos_monitor)/resources/matrix/cicv.xls" name="rviz_matrix_path"/>		
+		<!-- <param type="string" value="$(find system_toolbar)/resource/matrix/avos_x_wxb.xls" name="rviz_matrix_path"/> -->
+		<!-- <param type="string" value="$(find system_toolbar)/../map_file/N4017213E11656747/app_map/app_map.xml" name="app_map_path"/> -->
+		<!-- <param type="string" value="$(find system_toolbar)/../map_file/N4017213E11656747/wxb_map/wxb01.xml" name="vector_map_path"/> -->
+		<!-- <param type="string" value="$(find ivrviz)/../map_file/N4016424E11622714/vector_map/apollo.xml" name="vector_map_path"/> -->
+		<!-- <param type="string" value="$(find ivrviz)/../map-ori/N4007873E11633929/vector_map/vectormap.xml" name="vector_map_path"/> -->
+		<param type="string" value="package://avos_monitor/resources/car/TestCar.DAE" name="car_source_path"/>
+		<!-- TestCar.DAE CarModel.dae-->
+
+	<!-- <node name="ivrviz" pkg="ivrviz" type="ivrviz" output = "screen"/> -->
+		<param type="string" value="base_link" name="gloabal_frame"/>
+		<param type="double" value="3.80" name="lengthVehicle"/>
+		<param type="double" value="1.80" name="widthVehicle"/>
+		<param type="double" value="1.65" name="heightVehicle"/>
+    <!-- <node pkg="ivrviz" type="tf_broadcaster.py" name="tf_broadcaster"/> -->
+	<param name="use_sim_time" value="false"/>
+	
+    <!--include file="$(find launch)/lslidar_c32.launch"/>-->
+</launch>

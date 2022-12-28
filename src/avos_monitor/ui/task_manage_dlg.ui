@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TaskManageDlg</class>
+ <widget class="QDialog" name="TaskManageDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>771</width>
+    <height>393</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>任务管理</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">color: rgb(255, 255, 255);
+background-color: #555555;</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>731</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGroupBox {
+            border-color: rgb(200, 200, 200);
+            border-width: 1px;
+            border-style: solid;
+            margin-top: 0.5ex;
+        }</string>
+   </property>
+   <property name="title">
+    <string>任务设置</string>
+   </property>
+   <widget class="QLineEdit" name="target_pose_x">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>40</y>
+      <width>221</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>40</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>目标点坐标X</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="target_pose_y">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>80</y>
+      <width>221</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>80</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>目标点坐标Y</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="target_pose_heading">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>80</y>
+      <width>221</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>目标点航向</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="add_point_btn">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>160</y>
+      <width>71</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    color:white;
+	background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(50, 50, 50, 255), stop:0.618557 rgba(100, 100, 100, 255));
+}
+QPushButton:hover
+{
+    background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(100, 100, 100, 255), stop:0.618557 rgba(50, 50, 50, 255));
+}
+QPushButton:pressed
+{
+    background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(20, 20, 20, 255), stop:0.618557 rgba(70, 70, 70, 255));
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+    </property>
+    <property name="text">
+     <string>添加&gt;&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>目标点类型</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="target_attribute_combox">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>40</y>
+      <width>221</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox {
+	color: rgb(255, 255, 255);
+	background-color: rgb(85, 87, 83);
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 1px 2px 1px 2px; 
+}</string>
+    </property>
+   </widget>
+   <widget class="QTableView" name="point_table_view">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>120</y>
+      <width>581</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTableView {
+    color: white;
+	gridline-color: rgb(136, 138, 133);
+    background-color: rgb(85, 87, 83); 
+    alternate-background-color: rgb(64, 64, 64);
+    selection-color: white; 
+    selection-background-color: rgb(77, 77, 77); 
+    border: 2px groove gray;
+    border-radius: 0px;
+    padding: 2px 4px;
+}
+QHeaderView::section
+{
+	background-color: rgb(74, 74, 74);
+	color: white;
+	padding-left: 5px;
+	border-left:0px solid #000;
+	border-right:1px solid white;
+	border-top:0px solid #000;
+}
+QTableView QTableCornerButton::section {
+    color: white;
+    background-color: rgb(74, 74, 74);
+	padding-left: 5px;
+	border-left:0px solid #000;
+	border-right:1px solid white;
+	border-top:0px solid #000;
+ }</string>
+    </property>
+    <property name="selectionBehavior">
+     <enum>QAbstractItemView::SelectRows</enum>
+    </property>
+    <attribute name="horizontalHeaderStretchLastSection">
+     <bool>true</bool>
+    </attribute>
+    <attribute name="verticalHeaderVisible">
+     <bool>true</bool>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="remove_point_btn">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>240</y>
+      <width>71</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    color:white;
+	background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(50, 50, 50, 255), stop:0.618557 rgba(100, 100, 100, 255));
+}
+QPushButton:hover
+{
+    background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(100, 100, 100, 255), stop:0.618557 rgba(50, 50, 50, 255));
+}
+QPushButton:pressed
+{
+    background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(20, 20, 20, 255), stop:0.618557 rgba(70, 70, 70, 255));
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+    </property>
+    <property name="text">
+     <string>&lt;&lt;移除</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="task_start_btn">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>350</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+    color:white;
+	background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(50, 50, 50, 255), stop:0.618557 rgba(100, 100, 100, 255));
+}
+QPushButton:hover
+{
+    background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(100, 100, 100, 255), stop:0.618557 rgba(50, 50, 50, 255));
+}
+QPushButton:pressed
+{
+    background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(20, 20, 20, 255), stop:0.618557 rgba(70, 70, 70, 255));
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+   </property>
+   <property name="text">
+    <string>任务下发</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="task_pause_btn">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>350</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+    color:white;
+	background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(50, 50, 50, 255), stop:0.618557 rgba(100, 100, 100, 255));
+}
+QPushButton:hover
+{
+    background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(100, 100, 100, 255), stop:0.618557 rgba(50, 50, 50, 255));
+}
+QPushButton:pressed
+{
+    background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(20, 20, 20, 255), stop:0.618557 rgba(70, 70, 70, 255));
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+   </property>
+   <property name="text">
+    <string>任务暂停</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="task_stop_btn">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>350</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+    color:white;
+	background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(50, 50, 50, 255), stop:0.618557 rgba(100, 100, 100, 255));
+}
+QPushButton:hover
+{
+    background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(100, 100, 100, 255), stop:0.618557 rgba(50, 50, 50, 255));
+}
+QPushButton:pressed
+{
+    background-color: qlineargradient(spread:pad, x1:0.0618557, y1:1, x2:0.948454, y2:0.057, stop:0 rgba(20, 20, 20, 255), stop:0.618557 rgba(70, 70, 70, 255));
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+   </property>
+   <property name="text">
+    <string>任务结束</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,4 @@
+common_msgs/Header header
+PredictionObject[] prediction_obstacle
+float64 start_timestamp
+float64 end_timestamp

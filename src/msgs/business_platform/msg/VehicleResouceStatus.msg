@@ -1,0 +1,1 @@
+BoardResourceStatus[]  board_resource_info

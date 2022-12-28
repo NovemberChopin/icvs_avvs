@@ -1,0 +1,1 @@
+MapCollectionInfo[]  map_file_list

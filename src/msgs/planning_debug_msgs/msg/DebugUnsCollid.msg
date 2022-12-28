@@ -1,0 +1,3 @@
+DebugSemantic front_collision_info
+DebugSemantic result_collision_info
+float32 slow_down_dis

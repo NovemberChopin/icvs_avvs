@@ -1,0 +1,67 @@
+cmake_minimum_required(VERSION 2.8.3)
+project(test_shm_bridge)
+
+find_package(catkin REQUIRED COMPONENTS
+  message_generation
+  roscpp
+  rospy
+  genmsg
+  std_msgs
+  common_base
+  common_msgs
+  common_math
+)
+
+add_message_files(
+  FILES
+  Sensorobj.msg
+  obj.msg
+)
+
+
+generate_messages(DEPENDENCIES std_msgs common_msgs )
+
+catkin_package(
+
+   CATKIN_DEPENDS roscpp common_msgs
+   DEPENDS roscpp genmsg gencpp genpy std_msgs serial 
+)
+
+include(${CMAKE_SOURCE_DIR}/common/cmake/env_board.cmake)
+
+include_directories(
+  include
+  ${common_base_INCLUDE_DIRS}
+  ${CMAKE_SOURCE_DIR}/common/common_header
+  ${CMAKE_SOURCE_DIR}
+  ${CMAKE_CURRENT_SOURCE_DIR}
+)
+
+link_directories(
+  ${CMAKE_SOURCE_DIR}/../devel/lib/
+  ${CMAKE_SOURCE_DIR}/common/common_lib
+  common/common_lib/glog/lib
+)
+
+
+set(TARGETGPS_SRC
+  src/rosbridge.cpp
+  src/shmbridge.cpp
+  src/main.cpp
+  src/sensor_test.cpp
+  )
+
+add_executable(${PROJECT_NAME} 
+  ${TARGETGPS_SRC}
+)
+add_dependencies(${PROJECT_NAME} 
+  ${${PROJECT_NAME}_EXPORTED_TARGETS} 
+  ${catkin_EXPORTED_TARGETS}
+)
+
+target_link_libraries(${PROJECT_NAME}
+  ${catkin_LIBRARIES}
+  ${common_base_LIBRARIES}
+  glog
+  common_base_time
+)

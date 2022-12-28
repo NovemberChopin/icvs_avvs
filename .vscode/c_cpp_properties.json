@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/optimus/project/icvs_avvs/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/optimus/project/icvs_avvs/src/avos_monitor/include/**",
+        "/home/optimus/project/icvs_avvs/src/map/basemap/include/**",
+        "/home/optimus/project/icvs_avvs/src/driver/lslidar_c32/lslidar_c32_decoder/include/**",
+        "/home/optimus/project/icvs_avvs/src/driver/lslidar_c32/lslidar_c32_driver/include/**",
+        "/home/optimus/project/icvs_avvs/src/map/map_loader/include/**",
+        "/home/optimus/project/icvs_avvs/src/map/vectormap/include/**",
+        "/home/optimus/project/icvs_avvs/src/map/wxbmap/include/**",
+        "/home/optimus/project/icvs_avvs/src/map/xmlmap/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

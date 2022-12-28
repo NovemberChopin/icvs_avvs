@@ -1,0 +1,1 @@
+planning_msgs/Trajectory[] points

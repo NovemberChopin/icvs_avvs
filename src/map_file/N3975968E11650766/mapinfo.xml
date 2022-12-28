@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Map xmlns="http://www.idriverplus.com">
+	<header name="N3975968E11650766" version="1.6" describe="E+X项目基于GPS自动生成地图V1.0.0.0版本" date="2021-04-28 21:58:18">
+		<move_origin zone="50" multpcd_enable="1">
+			<centerPoint x="457827.198564377" y="4401201.367593014" z="27.934519400"/>
+		</move_origin>
+		<boundary ldx="39.759273724" ldy="116.507656374" length="148.057784324" width="47.802887868"/>
+	</header>
+</Map>
+

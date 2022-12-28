@@ -1,0 +1,14 @@
+uint8  real_shiftposition
+int16  uisteerangle
+uint16 uispeed
+uint8  current_drive_mode
+uint16 vehicle_accel
+uint8 sys_status
+uint8 HVB_SOC
+uint8 VCU_DTC
+uint8 NBS_Fault_St
+uint8 Eps_status
+uint8 left_turn_light
+uint8 right_turn_light
+uint8 head_lamp_low
+uint8 head_lamp_high

@@ -1,0 +1,15 @@
+uint8 can103_fault_flag
+uint8 mmw_lidar0_flag
+uint8 mmw_lidar1_flag
+uint8 mmw_lidar3_flag
+uint8 mmw_lidar5_flag
+uint8 mmw_lidar7_flag
+uint8 ult_5C8_flag
+uint8 ult_5C9_flag
+uint8 can103_busoff_flag
+uint8 fault_camera_flag
+uint8 fault_camera1_flag
+uint8 fault_camera2_flag
+uint8 fault_camera3_flag
+uint8 fault_camera4_flag
+uint8 fault_camera5_flag

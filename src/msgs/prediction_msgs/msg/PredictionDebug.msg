@@ -1,0 +1,6 @@
+string version
+prediction_msgs/DebugState main_process_msg
+prediction_msgs/DebugState locpose_msg
+prediction_msgs/DebugState perception_msg
+prediction_msgs/DebugState planning_msg
+prediction_msgs/DebugState scenario_msg

@@ -1,0 +1,5 @@
+int8 	sub_system_type
+int8 	sub_system_status
+CalibrationStatus 	calibration_status
+MapCollection 	map_collection
+MissionStatus 	mission_status

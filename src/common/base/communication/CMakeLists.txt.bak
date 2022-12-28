@@ -1,0 +1,45 @@
+cmake_minimum_required(VERSION 2.8.3)
+project(test_communication)
+
+find_package(catkin REQUIRED COMPONENTS
+  roscpp
+  rospy
+  std_msgs
+)
+
+catkin_package(
+ INCLUDE_DIRS include
+ CATKIN_DEPENDS roscpp rospy std_msgs 
+)
+
+include_directories(
+  include
+  ${CMAKE_SOURCE_DIR}/../devel/include
+
+)
+   
+
+add_executable(service_bridge test/service_bridge_test.cpp)
+add_dependencies(service_bridge ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(service_bridge
+  ${catkin_LIBRARIES}
+)
+
+add_executable(client_bridge test/client_bridge_test.cpp)
+add_dependencies(client_bridge ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(client_bridge
+  ${catkin_LIBRARIES}
+)
+
+add_executable(class_service_bridge test/class_service_bridge_test.cpp)
+add_dependencies(class_service_bridge ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(class_service_bridge
+  ${catkin_LIBRARIES}
+)
+
+add_executable(class_client_bridge test/class_client_bridge_test.cpp)
+add_dependencies(class_client_bridge ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(class_client_bridge
+  ${catkin_LIBRARIES}
+)
+

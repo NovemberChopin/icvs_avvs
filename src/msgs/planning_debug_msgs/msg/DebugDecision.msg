@@ -1,0 +1,12 @@
+uint8 target_line
+int32 giveway_id
+float32 speed_limit
+float32[] boundary_s
+float32[] left_boundary
+float32[] right_boundary
+int32[] object_id
+uint8[] object_decision
+Sentence[] sentences
+DebugSTGraph st_graph
+string cmd_feedback
+uint8 lc_status

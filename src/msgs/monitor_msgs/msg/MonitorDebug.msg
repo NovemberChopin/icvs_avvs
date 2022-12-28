@@ -1,0 +1,17 @@
+bool can_bus_off
+bool can_fault_flag
+bool ult_5C8_flag
+bool ult_5C9_flag
+bool serial_rev_fault_flag
+bool serial_dev_fault_flag
+bool camera_fault_flag
+bool camera1_fault_flag
+bool camera2_fault_flag
+bool camera3_fault_flag
+bool camera4_fault_flag
+bool lidar_fault_flag
+bool mmw_lidar0_flag
+bool mmw_lidar1_flag
+bool mmw_lidar3_flag
+bool mmw_lidar5_flag
+bool mmw_lidar7_flag

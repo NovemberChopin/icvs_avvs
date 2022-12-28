@@ -1,0 +1,11 @@
+map_download:
+  map_data_path: !<!> /home/idriver/gitlab/tools/icvs_rviz/data/12321.txt
+  map_bag_local_path: !<!> /home/idriver/data/mark/map_file/
+  vehicle_map_path: !<!> idriver@192.168.1.101:/work/share/project/resident/src/
+  save_map_path: !<!> /home/idriver/gitlab/tools/icvs_avvs/src/avos_monitor/config/888.txt
+map_select:
+  select_map_path: !<!> /home/idriver/data/mark/map_file/
+  vehicle_map_path: !<!> idriver@192.168.1.101:/work/share/project/resident/src/map_file/
+bag_path:
+  local_bag_path: !<!> /home/idriver/data/mark/bags/
+  vehicle_bag_path: !<!> idriver@192.168.1.101:/work/share/record_bag/

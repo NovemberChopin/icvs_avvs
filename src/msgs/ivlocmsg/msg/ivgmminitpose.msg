@@ -1,0 +1,3 @@
+int32 status
+string type
+geometry_msgs/PoseWithCovarianceStamped pose

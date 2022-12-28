@@ -1,0 +1,21 @@
+cmake_minimum_required(VERSION 2.8.3)
+project(geotool)
+
+set(CMAKE_BUILD_TYPE "Release")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -fPIC")
+find_package(catkin REQUIRED COMPONENTS 
+  roscpp
+  roslib 
+  std_msgs
+)
+
+link_directories(./lib/) 
+
+add_library(geotool src/geotool.cc)
+
+target_link_libraries(geotool
+  ${catkin_LIBRARIES}
+  proj
+)
+
+add_dependencies(geotool ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})

@@ -1,0 +1,8 @@
+std_msgs/Header header
+MissionContent[] mission_request_vec
+---
+std_msgs/Header header
+int32 result
+MissionContent[] mission_response_vec
+MissionRoute[] mission_route_vec
+

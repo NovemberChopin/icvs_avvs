@@ -1,0 +1,11 @@
+tool_bar:
+  task_manage: true
+  bag_replay: true
+  data_analysis: true
+  vehicle_setting: 0
+  map_acquisition: true
+  runnability: true
+  monitor: true
+  calibration: true
+  video_show: true
+  bag_record: true

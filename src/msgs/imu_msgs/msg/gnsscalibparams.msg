@@ -1,0 +1,3 @@
+bool update
+float32 baseline
+float32 baseline_deviation

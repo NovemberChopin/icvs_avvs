@@ -1,0 +1,7 @@
+road_node {
+  id {
+    id: "23232320"
+  }
+  length: 0
+  speed_limit: 0
+}

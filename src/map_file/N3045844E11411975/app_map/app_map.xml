@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AvosBusiness xmlns="http://www.idriverplus.com">
+	<business type="area" signal="1"/>
+	<business type="point" signal="1"/>
+</AvosBusiness>
+

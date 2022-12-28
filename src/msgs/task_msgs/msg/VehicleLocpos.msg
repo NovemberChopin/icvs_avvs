@@ -1,0 +1,10 @@
+float64 	xg
+float64 	yg
+float64     lon
+float64     lat
+float32 	heading
+float32     r_wheel_speed
+float32     l_wheel_speed
+float32     speed
+int8        gps_status
+int8        loc_status

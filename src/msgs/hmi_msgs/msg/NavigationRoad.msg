@@ -1,0 +1,2 @@
+string road_id
+NavigationLane[] navigation_lane_vec

@@ -1,0 +1,15 @@
+std_msgs/Header header
+float64 time_unix
+float64 roll_nav
+float64 pitch_nav
+float64 yaw_nav
+float64 lon_nav
+float64 lat_nav
+float64 height_nav
+float64 vel_e
+float64 vel_n
+float64 vel_u
+float64 xg_dr
+float64 yg_dr
+float64 zg_dr
+float64 time_nav_dr

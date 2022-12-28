@@ -1,0 +1,5 @@
+bool update
+uint8 calibration_type
+float32 calibration_time
+float32 gnss_baseline
+float32 baseline_result

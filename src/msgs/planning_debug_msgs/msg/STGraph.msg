@@ -1,0 +1,17 @@
+int32 id
+int32 cell_num
+float32 buffer
+bool right_of_way
+int8 conflict_type
+float32 s_l_min_s
+float32 s_l_max_s
+float32 s_l_min_l
+float32 s_l_max_l
+float32 t_1
+float32 min_s_1
+float32 max_s_1
+float32 t_2
+float32 min_s_2
+float32 max_s_2
+float32 vsabs
+float32 vlabs

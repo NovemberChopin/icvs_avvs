@@ -1,0 +1,9 @@
+uint32 type
+uint32 id
+float64 x
+float64 y
+float32 z
+float64 width
+float64 length
+float32 height
+float32 heading

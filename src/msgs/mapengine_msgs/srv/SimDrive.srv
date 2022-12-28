@@ -1,0 +1,7 @@
+int32 mission_id
+int32  command
+MissionContent content
+MissionRoute route
+---
+int32 cur_mission_id
+int32 result
