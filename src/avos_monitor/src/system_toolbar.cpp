@@ -141,7 +141,61 @@ SystemToolbar::SystemToolbar( QWidget* parent ) :
     setLayout(mainLayout);
 
     g_common_info_.business_status.intensity4g = 4;
+
+    fc_radar = new QTimer(this);    // 前中毫米波雷达错误显示定时器
+    fl_radar = new QTimer(this);    // 前左
+    fr_radar = new QTimer(this);    // 前右
+    nav_timer = new QTimer(this);
+    lidar_timer = new QTimer(this);
+    connect(fc_radar, &QTimer::timeout, this, &SystemToolbar::handle_fc_radar_timeout);
+    connect(fl_radar, &QTimer::timeout, this, &SystemToolbar::handle_fl_radar_timeout);
+    connect(fr_radar, &QTimer::timeout, this, &SystemToolbar::handle_fr_radar_timeout);
+    connect(nav_timer, &QTimer::timeout, this, &SystemToolbar::handle_nav_timeout);
+    connect(lidar_timer, &QTimer::timeout, this, &SystemToolbar::handle_lidar_timerout);
+    
 }
+
+void SystemToolbar::handle_fl_radar_timeout() {
+    if (fl_radar->isActive()) {
+        fl_radar->stop();
+        g_common_info_.sensor_status.mill_radar[0] = 1;     // 前左
+        std::cout << "fl_radar timer stop" << std::endl;
+    }
+}
+
+
+void SystemToolbar::handle_fc_radar_timeout() {
+    if (fc_radar->isActive()) {
+        fc_radar->stop();
+        g_common_info_.sensor_status.mill_radar[1] = 1;     // 前中
+        std::cout << "fc_radar timer stop" << std::endl;
+    }
+}
+
+
+void SystemToolbar::handle_fr_radar_timeout() {
+    if (fr_radar->isActive()) {
+        fr_radar->stop();
+        g_common_info_.sensor_status.mill_radar[2] = 1;     // 前右
+        std::cout << "fr_radar timer stop" << std::endl;
+    }
+}
+
+void SystemToolbar::handle_nav_timeout() {
+    if (nav_timer->isActive()) {
+        nav_timer->stop();
+        g_common_info_.sensor_status.nav_status = 1;        // 组合惯导 状态设置为正常
+        std::cout << "nav_timer stop" << std::endl;
+    }
+}
+
+void SystemToolbar::handle_lidar_timerout() {
+    if (lidar_timer->isActive()) {
+        lidar_timer->stop();
+        g_common_info_.sensor_status.lidar_status = 1;
+    }
+}
+
 
 void SystemToolbar::InitRosSub()
 {
@@ -149,7 +203,7 @@ void SystemToolbar::InitRosSub()
     nh.param<std::string>("gloabal_frame", global_frame_, "base_link");
 
     sub_tpcarfaults         = nh.subscribe("/tpcarfaults", 100, &SystemToolbar::CallbackCarfaults, this);
-    sub_tpmonitordb103      = nh.subscribe("/tpcanfault", 100, &SystemToolbar::CallbackVehicleFault, this);
+    // sub_tpmonitordb103      = nh.subscribe("/tpcanfault", 100, &SystemToolbar::CallbackVehicleFault, this);
     sub_tpcontrolsys        = nh.subscribe("/control_sys", 100, &SystemToolbar::CallbackControlSys, this);
     sub_tpimu               = nh.subscribe("/tpimu", 100, &SystemToolbar::CallbackSensorIMU, this);
     sub_tpcansensor         = nh.subscribe("/tpcansensor", 100, &SystemToolbar::CallbackCanSensor, this);
@@ -164,6 +218,9 @@ void SystemToolbar::InitRosSub()
     sub_perception_debug_   = nh.subscribe("/tpperceptiondebug", 10, &SystemToolbar::CallbackPerceptionDebug, this);
     sub_mapegine_           = nh.subscribe("/mapengine/tpnavigation", 10, &SystemToolbar::CallbackMapengine, this);
     sub_prediction_         = nh.subscribe("/tpprediction", 10, &SystemToolbar::CallbackPredictionObjects, this);
+
+    // 使用 fault_info 来判断系统状态
+    sub_fault_info = nh.subscribe("/fault_info", 1, &SystemToolbar::CallbackFaultInfo, this);
 
     // 毫米波雷达
     sub_fl_radar = nh.subscribe("/fl_radar_objects", 1, &SystemToolbar::CallbackFLRadar, this);
@@ -212,7 +269,7 @@ void SystemToolbar::InitRosSub()
 void SystemToolbar::ExitDebug()
 {
     sub_tpcarfaults.shutdown();
-    sub_tpmonitordb103.shutdown();
+    // sub_tpmonitordb103.shutdown();
     sub_tpcontrolsys.shutdown();
     sub_tpimu.shutdown();
     sub_tpcansensor.shutdown();
@@ -255,7 +312,7 @@ void SystemToolbar::timerEvent(QTimerEvent *event)
     if(event->timerId() == m_nTimerId)
     {
         UpdateStatus(); 
-        UpdateDashboardStatus(); 
+        // UpdateDashboardStatus(); 
         std::cout<<"UpdateStatus ...."<<std::endl;
     }
 
@@ -645,7 +702,11 @@ void SystemToolbar::OnDebugButton()
 
     if (is_debug_status_)
     {
-    	ExitDebug();
+
+        ExitDebug();
+    	
+        InitSensorState("nostate");
+        UpdateStatus();
 
 	    pStartDebugBtn->setStyleSheet("QPushButton{color:black;background:transparent}");
 	    button_path = ros::package::getPath("avos_monitor")+"/resources/button/playbtn.png";	    
@@ -655,10 +716,17 @@ void SystemToolbar::OnDebugButton()
 	    pStartDebugBtn->setFlat(true);
 	    pStartDebugBtn->setText("开始");
     	is_debug_status_ = false;
+
+        Q_EMIT removePointCloud_signal();
+
+        // 重置传感器状态
+
     }
     else
     {
     	InitRosSub();
+
+        InitSensorState("normal");
 
 	    pStartDebugBtn->setStyleSheet("QPushButton{color:black;background:transparent}");
 	    button_path = ros::package::getPath("avos_monitor")+"/resources/button/stopbtn.png";
@@ -668,6 +736,8 @@ void SystemToolbar::OnDebugButton()
 	    pStartDebugBtn->setFlat(true);
 	    pStartDebugBtn->setText("停止");
     	is_debug_status_ = true;
+
+        Q_EMIT addPointCloud_signal();
     }
 }
 
@@ -831,6 +901,9 @@ void SystemToolbar::CallbackBusiness(const business_platform::BusinessStatus::Co
     }
 }
 
+/**
+ * 根据 /tpcanfault 话题查看传感器状态（已弃用）
+*/
 void SystemToolbar::CallbackVehicleFault(const canbus_msgs::CanFault::ConstPtr &msg)
 {    
     g_common_info_.sensor_status.can_status[0] = !(msg->can_fault_flag);
@@ -842,14 +915,14 @@ void SystemToolbar::CallbackVehicleFault(const canbus_msgs::CanFault::ConstPtr &
     g_common_info_.sensor_status.mill_radar[3] = !(msg->mmw_lidar5_flag);
     g_common_info_.sensor_status.mill_radar[4] = !(msg->mmw_lidar3_flag);
 
-    g_common_info_.sensor_status.camera_status[0] = !(msg->fault_camera5_flag);
-    g_common_info_.sensor_status.camera_status[1] = !(msg->fault_camera1_flag);
-    g_common_info_.sensor_status.camera_status[2] = !(msg->fault_camera2_flag);
-    g_common_info_.sensor_status.camera_status[3] = !(msg->fault_camera3_flag);
-    g_common_info_.sensor_status.camera_status[4] = !(msg->fault_camera4_flag);
+    // g_common_info_.sensor_status.camera_status[0] = !(msg->fault_camera5_flag);
+    // g_common_info_.sensor_status.camera_status[1] = !(msg->fault_camera1_flag);
+    // g_common_info_.sensor_status.camera_status[2] = !(msg->fault_camera2_flag);
+    // g_common_info_.sensor_status.camera_status[3] = !(msg->fault_camera3_flag);
+    // g_common_info_.sensor_status.camera_status[4] = !(msg->fault_camera4_flag);
 
-    g_common_info_.sensor_status.lidar_status = !(msg->fault_lidar_flag);
-    g_common_info_.sensor_status.nav_status = !(msg->fault_imu_flag);
+    // g_common_info_.sensor_status.lidar_status = !(msg->fault_lidar_flag);
+    // g_common_info_.sensor_status.nav_status = !(msg->fault_imu_flag);
 
     // SCH 2020.10.10
 }
@@ -992,10 +1065,14 @@ void SystemToolbar::UpdateStatus()
         if (g_common_info_.business_status.avos_status == 0)
         {
             item->setBackgroundColor(fault_level_color_2_);
+            item->setText("模块缺失");
         }
         else if (g_common_info_.business_status.avos_status == 1)
         {
-            item->setBackgroundColor(fault_level_color_0_);  
+            item->setBackgroundColor(fault_level_color_0_);
+            item->setText("系统正常");
+        } else {
+            item->setText("状态未知");
         }
 
         show_stat_table->setItem(index, column, item);    
@@ -1477,7 +1554,7 @@ void SystemToolbar::UpdateStatus()
     }
     index++;
 
-    for (int i = 0; i < 5; ++i)
+    for (int i = 0; i < 5; ++i)     // 毫米波雷达
     {
         if (g_common_info_.sensor_status.mill_radar[i] != tmp_info.sensor_status.mill_radar[i] || is_first)
         {
@@ -2574,15 +2651,100 @@ void SystemToolbar::ShowVectormap(void)
     show_vector_map_.publish(pub_vector_map_, 'y');
 }
 
+/**
+ * 根据 fault_info 话题来判断车辆传感器状态
+*/
+void SystemToolbar::CallbackFaultInfo(const common_msgs::FaultVec::ConstPtr &msg) {
+    int needRefeash = false;
+    if (msg->info_vec.size() > 0) {
+        // std::cout << "fault info size: " << msg->info_vec.size() << std::endl;
+        for (auto fault_info : msg->info_vec) {
+            if (fault_info.module_name == "ins") {          // 组合惯导在 fualt_info 话题中的 module_name
+                g_common_info_.sensor_status.nav_status = fault_info.fault_type;
+                if (nav_timer->isActive())  nav_timer->stop();
+                nav_timer->start(2000);
+                // std::cout << "--> nav fault" << std::endl;
+            } else if (fault_info.module_name == "lidar_driver") {     // 激光雷达
+                g_common_info_.sensor_status.lidar_status = fault_info.fault_type;
+                if (lidar_timer->isActive())  lidar_timer->stop();
+                lidar_timer->start(2000);
+                // std::cout << "--> lidar fault" << std::endl;
+            } else if (fault_info.module_name == "radar7") {       // 前左毫米波
+                g_common_info_.sensor_status.mill_radar[0] = fault_info.fault_type;
+                if (fl_radar->isActive())  fl_radar->stop();
+                fl_radar->start(2000);
+                // std::cout << "--> fl_radar fault" << std::endl;
+            } else if (fault_info.module_name == "radar0") {       // 前中毫米波
+                needRefeash = true;
+                g_common_info_.sensor_status.mill_radar[1] = fault_info.fault_type;
+                if (fc_radar->isActive()) fc_radar->stop();
+                fc_radar->start(2000);      // 重新开始计时
+                // std::cout << "--> fc_radar fault" << std::endl;
+            } else if (fault_info.module_name == "radar1") {       // 前右毫米波
+                g_common_info_.sensor_status.mill_radar[2] = fault_info.fault_type;
+                if (fr_radar->isActive())  fr_radar->stop();
+                fr_radar->start(2000);
+                // std::cout << "--> fr_radar fault" << std::endl;
+            } else {
+
+            }
+            
+        }
+        if (needRefeash) {
+            // this->UpdateStatus();
+        }
+    }  
+}
+
+/**
+ * type: 
+ *      normal: 把所有传感器设置为状态正常
+ *      nostate: 把所有传感器设置为状态未知
+*/
+void SystemToolbar::InitSensorState(std::string type) {
+    int sensor_val, ult_val;
+    if (type == "normal") {
+        sensor_val = 1;     // 对于 sensor_status 1 表示正常
+        ult_val = 0;        // 对于 ult_radar 0 表示正常
+    } else {
+        sensor_val = 2;     // 对于 sensor_status 非0非1 都表示状态未知
+        ult_val = 3;        // 对于 ult_radar 非012 都表示状态未知
+    }
+
+    g_common_info_.sensor_status.can_status[0] = sensor_val;
+    g_common_info_.sensor_status.can_status[1] = sensor_val;
+
+    g_common_info_.sensor_status.camera_status[0] = sensor_val;  // 相机
+    g_common_info_.sensor_status.camera_status[1] = sensor_val;
+    g_common_info_.sensor_status.camera_status[2] = sensor_val;
+    g_common_info_.sensor_status.camera_status[3] = sensor_val;
+    g_common_info_.sensor_status.camera_status[4] = sensor_val;
+
+    g_common_info_.sensor_status.lidar_status = sensor_val;      // 激光雷达
+    g_common_info_.sensor_status.nav_status = sensor_val;        // 组合惯导
+    // 毫米波雷达
+    g_common_info_.sensor_status.mill_radar[0] = sensor_val;     // 前左
+    g_common_info_.sensor_status.mill_radar[1] = sensor_val;     // 前中
+    g_common_info_.sensor_status.mill_radar[2] = sensor_val;     // 前右
+    g_common_info_.sensor_status.mill_radar[3] = sensor_val;     // 后左
+    g_common_info_.sensor_status.mill_radar[4] = sensor_val;     // 后右
+
+    // 超声波激光雷达
+    int ult_radar_length = 0;
+    ult_radar_length = sizeof(g_common_info_.sensor_status.ult_radar) / sizeof(g_common_info_.sensor_status.ult_radar[0]);
+    for (int i=0; i<ult_radar_length; i++) {
+        g_common_info_.sensor_status.ult_radar[i] = ult_val;      // 0 表示设备正常
+    }
+}
 
 void SystemToolbar::CallbackFLRadar(const perception_msgs::RadarObjectList::ConstPtr &msg) {
-    std::cout << "fl radar size is: " << msg->radarobjects.size() << std::endl;
+    // std::cout << "fl radar size is: " << msg->radarobjects.size() << std::endl;
 }
 
 void SystemToolbar::CallbackFRRadar(const perception_msgs::RadarObjectList::ConstPtr &msg) {
-    std::cout << "fr radar size is: " << msg->radarobjects.size() << std::endl;
+    // std::cout << "fr radar size is: " << msg->radarobjects.size() << std::endl;
 }
 
 void SystemToolbar::CallbackRLRadar(const perception_msgs::RadarObjectList::ConstPtr &msg) {
-    std::cout << "rl radar size is: " << msg->radarobjects.size() << std::endl;
+    // std::cout << "rl radar size is: " << msg->radarobjects.size() << std::endl;
 }

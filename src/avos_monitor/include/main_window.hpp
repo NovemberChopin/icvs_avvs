@@ -181,8 +181,13 @@ private slots:
     void on_turn_right_btn_clicked(); 
     void on_save_display_setting_btn_clicked();
 
+    void addPointCloud_slot();
+    void removePointCloud_slot();
+
 private:
     Ui::MainWindowDesign *ui;
+    SystemToolbar *system_toolbar;
+
     void initData();
     QString JudgeDisplayNewName(QString name);
 

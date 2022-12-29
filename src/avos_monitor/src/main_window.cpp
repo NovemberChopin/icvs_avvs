@@ -82,8 +82,8 @@ void MainWindow::initUis()
 {
     ui->groupBox_3->setEnabled(false);
     ui->groupBox_4->setEnabled(false);
-
-    ui->tabWidget->addTab(new SystemToolbar(),tr("车辆状态"));//在后面添加选项卡    
+    system_toolbar = new SystemToolbar();
+    ui->tabWidget->addTab(this->system_toolbar, tr("车辆状态"));//在后面添加选项卡    
     ui->tab_manager->addTab(new VehicleInformationWidget(), "整车信息");
     // ui->tab_manager->addTab(new RosTopicWidget(), "ROS话题");
 
@@ -283,8 +283,27 @@ void MainWindow::RvizGetModel(QAbstractItemModel *model)
     ui->treeView_rvizDisplayTree->setModel(model);
 }
 
+
+void MainWindow::addPointCloud_slot() {         // 添加点云
+    // 添加展示点云数据
+    QMap<QString, QVariant> PointCloud_map;
+    PointCloud_map.insert("Topic", "/calibrated_hs_cloud");  // /lslidar_point_cloud
+    PointCloud_map.insert("Style", "Points");
+    PointCloud_map.insert("Size (Pixels)", 1);
+    PointCloud_map.insert("Color Transformer", "Intensity");
+    PointCloud_map.insert("Invert Rainbow", true);
+    map_rviz_->DisplayInit(RVIZ_DISPLAY_POINTCLOUD2, "PointCloud2", true, PointCloud_map);
+}
+
+void MainWindow::removePointCloud_slot() {      // 移除点云
+    map_rviz_->RemoveDisplay("PointCloud2");
+}
+
 void MainWindow::connections()
 {
+    QObject::connect(system_toolbar, SIGNAL(addPointCloud_signal()), this, SLOT(addPointCloud_slot()));
+    QObject::connect(system_toolbar, SIGNAL(removePointCloud_signal()), this, SLOT(removePointCloud_slot()));
+
     QObject::connect(&qnode, SIGNAL(loggingUpdated()), this, SLOT(updateLoggingView()));
     QObject::connect(&qnode, SIGNAL(rosShutdown()), this, SLOT(slot_rosShutdown()));
     QObject::connect(&qnode, SIGNAL(Master_shutdown()), this, SLOT(slot_rosShutdown()));
@@ -943,6 +962,9 @@ void MainWindow::on_button_connect_clicked()
     //显示话题列表
     initTopicList();
     load_rviz_params();    
+
+    // 在这之后添加显示激光雷达点云的代码
+
     m_nTimerId = startTimer(300);
 }
 

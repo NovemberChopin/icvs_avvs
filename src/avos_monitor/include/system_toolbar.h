@@ -16,6 +16,7 @@
 #include <QHeaderView>
 #include <QScrollBar>
 #include <QTimerEvent>
+#include <QTimer>
 
 #include "imu/SensorImu.h"
 #include "planning_msgs/Trajectory.h"
@@ -54,6 +55,8 @@
 #include "perception_msgs/TrafficLightDetection.h"
 #include "perception_msgs/RadarObjectList.h"
 #include "perception_msgs/RadarObject.h"
+#include "common_msgs/FaultVec.h"
+#include "common_msgs/FaultInfo.h"
 #include "business_platform/BusinessStatus.h"
 #include "mainstream_msgs/VehiclePerception.h"
 #include "ivlocmsg/ivsensorgps.h"
@@ -112,9 +115,16 @@ private:
     ros::Subscriber sub_tpbusiness_status;
     ros::Subscriber sub_lon_control_debug;//lon_control_debug
 
+    ros::Subscriber sub_fault_info;
     ros::Subscriber sub_fl_radar;
     ros::Subscriber sub_fr_radar;
     ros::Subscriber sub_rl_radar;
+
+    QTimer *fc_radar;
+    QTimer *fl_radar;
+    QTimer *fr_radar;
+    QTimer *nav_timer;      // 组合惯导计时器
+    QTimer *lidar_timer;    
 
     int m_nTimerId = 0;
     int m_nTimerShow = 0;
@@ -149,9 +159,22 @@ private:
     void CallbackSensorgps(const ivlocmsg::ivsensorgps::ConstPtr &msg);
     void CallbackLonDebug(const control_msgs::LoncontrolDebug::ConstPtr &msg);
 
+    void CallbackFaultInfo(const common_msgs::FaultVec::ConstPtr &msg);
+
     void CallbackFLRadar(const perception_msgs::RadarObjectList::ConstPtr &msg);
     void CallbackFRRadar(const perception_msgs::RadarObjectList::ConstPtr &msg);
     void CallbackRLRadar(const perception_msgs::RadarObjectList::ConstPtr &msg);
+
+    void handle_fc_radar_timeout();
+    void handle_fl_radar_timeout();
+    void handle_fr_radar_timeout();
+    void handle_nav_timeout();
+    void handle_lidar_timerout();
+    void InitSensorState(std::string type);
+
+Q_SIGNALS:
+    void addPointCloud_signal();
+    void removePointCloud_signal();
 
 public Q_SLOTS:
     void SettingButton();
