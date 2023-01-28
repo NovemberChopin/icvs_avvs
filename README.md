@@ -18,3 +18,15 @@ version:V1.0.0.0
 (1)cd　到.run文件的目录下，右键打开终端，执行 sudo chmod -R 777 qt-opensource-linux-x64-5.11.1.run
 (2)注册，安装选项除了android不选，其他的都选择，然后直接点下一步即可；
 
+---
+## 安装依赖
+```bash
+# qt
+sudo apt install ros-melodic-qt-create ros-melodic-qt-build
+sudo apt install qtmultimedia5-dev
+# glob
+sudo apt-get install libgflags-dev libgoogle-glog-dev
+# pcap
+sudo apt install libpacp-dev
+```
+
